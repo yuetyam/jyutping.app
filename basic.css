@@ -1,0 +1,13 @@
+html, body {
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Segoe UI, Helvetica Neue, Noto Sans, ChiuKong Gothic CL, Advocate Ancient Sans, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, ui-sans-serif, sans-serif;
+        line-height: 1.6em;
+}
+
+a {
+        text-decoration: none;
+        color: #1F9BF3;
+}
+
+a:hover {
+        color: black;
+}
