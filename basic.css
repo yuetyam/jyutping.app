@@ -1,13 +1,68 @@
 html, body {
         font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Segoe UI, Helvetica Neue, Noto Sans, ChiuKong Gothic CL, Advocate Ancient Sans, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, ui-sans-serif, sans-serif;
-        line-height: 1.6em;
+        background-color: #efefef;
+}
+
+h1, h2, h3 {
+        font-weight: 500;
+}
+
+.text-caption {
+        font-size: 0.75em;
 }
 
 a {
         text-decoration: none;
         color: #1F9BF3;
 }
-
 a:hover {
-        color: black;
+        color: green;
+}
+
+.card {
+        text-align: center;
+        border-radius: 16px;
+        background-color: white;
+        position: relative;
+        width: 40%;
+        left: 30%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+}
+
+img.screenshot {
+        width: 50%;
+}
+
+img.badge {
+        width: 160px;
+}
+
+@media (max-width: 1078px) {
+        .card {
+                width: 60%;
+                left: 20%;
+        }
+        img.screenshot {
+                width: 60%;
+        }
+}
+@media (max-width: 801px) {
+        .card {
+                width: 96%;
+                left: 2%;
+        }
+        img.screenshot {
+                width: 70%;
+        }
+}
+
+@media(prefers-color-scheme: dark) {
+        html, body {
+                color: white;
+                background: black;
+        }
+        .card {
+                background-color: #1c1c1c;
+        }
 }
