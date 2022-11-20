@@ -3,12 +3,23 @@ html, body {
         background-color: #efefef;
 }
 
+code {
+        font-family: "SF Mono", SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
+        font-size: 0.9em;
+}
+
 h1, h2, h3 {
         font-weight: 500;
 }
 
-.text-caption {
-        font-size: 0.75em;
+.footnote {
+        font-size: 0.8em;
+}
+.left-align {
+        text-align: left;
+}
+.more-line-height {
+        line-height: 1.5em;
 }
 
 a {
@@ -26,8 +37,9 @@ a:hover {
         position: relative;
         width: 40%;
         left: 30%;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 2em;
 }
 
 img.screenshot {
