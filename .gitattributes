@@ -4,3 +4,6 @@
 *.apng binary
 *.webp binary
 *.ico binary
+*.mp4 binary
+*.webm binary
+*.gif binary
