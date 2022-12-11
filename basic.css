@@ -13,13 +13,18 @@ h1, h2, h3 {
 }
 
 .footnote {
-        font-size: 0.8em;
+        font-size: 0.9em;
+}
+
+.menu-item {
         padding-left: 1em;
         padding-right: 1em;
 }
+
 .left-align {
         text-align: left;
 }
+
 .more-line-height {
         line-height: 1.6em;
 }
@@ -29,6 +34,7 @@ a {
         color: #1F9BF3;
 }
 a:hover {
+        text-decoration: underline;
         color: green;
 }
 
@@ -38,10 +44,10 @@ a:hover {
         background-color: white;
         position: relative;
         width: 40%;
-        left: 30%;
+        left: 28%;
         margin-top: 2em;
         margin-bottom: 2em;
-        padding: 2em;
+        padding: 2%;
 }
 
 img.screenshot {
@@ -55,7 +61,7 @@ img.badge {
 @media (max-width: 1078px) {
         .card {
                 width: 60%;
-                left: 20%;
+                left: 18%;
         }
         img.screenshot {
                 width: 60%;
@@ -63,8 +69,8 @@ img.badge {
 }
 @media (max-width: 801px) {
         .card {
-                width: 96%;
-                left: 2%;
+                width: 94%;
+                left: 1%;
         }
         img.screenshot {
                 width: 70%;
