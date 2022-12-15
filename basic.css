@@ -1,8 +1,15 @@
 html, body {
         font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, ChiuKong Gothic CL, Advocate Ancient Sans, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, ui-sans-serif, sans-serif;
-        background-color: #efefef;
+        background: #efefef;
 }
 
+pre {
+        overflow: auto;
+        white-space: pre;
+        padding: 1em;
+        border-radius: 0.8em;
+        background: #efefef;
+}
 code {
         font-family: "SF Mono", SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
         font-size: 0.9em;
@@ -17,8 +24,7 @@ h1, h2, h3 {
 }
 
 .menu-item {
-        padding-left: 1em;
-        padding-right: 1em;
+        padding: 1em;
 }
 
 .left-align {
@@ -41,17 +47,17 @@ a:hover {
 .card {
         text-align: center;
         border-radius: 16px;
-        background-color: white;
+        background: white;
         position: relative;
-        width: 40%;
-        left: 28%;
-        margin-top: 2em;
-        margin-bottom: 2em;
-        padding: 2%;
+        width: 50%;
+        left: 24%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 1%;
 }
 
 img.screenshot {
-        width: 50%;
+        width: 40%;
 }
 
 img.badge {
@@ -61,7 +67,7 @@ img.badge {
 @media (max-width: 1078px) {
         .card {
                 width: 60%;
-                left: 18%;
+                left: 19%;
         }
         img.screenshot {
                 width: 60%;
@@ -69,7 +75,7 @@ img.badge {
 }
 @media (max-width: 801px) {
         .card {
-                width: 94%;
+                width: 96%;
                 left: 1%;
         }
         img.screenshot {
@@ -82,7 +88,10 @@ img.badge {
                 color: white;
                 background: black;
         }
+        pre {
+                background: black;
+        }
         .card {
-                background-color: #1c1c1c;
+                background: #1c1c1c;
         }
 }
