@@ -49,11 +49,11 @@ a:hover {
         border-radius: 16px;
         background: white;
         position: relative;
-        width: 50%;
+        width: 48%;
         left: 24%;
         margin-top: 1em;
         margin-bottom: 1em;
-        padding: 1%;
+        padding: 2%;
 }
 
 img.screenshot {
@@ -67,7 +67,7 @@ img.badge {
 @media (max-width: 1078px) {
         .card {
                 width: 60%;
-                left: 19%;
+                left: 18%;
         }
         img.screenshot {
                 width: 60%;
@@ -75,7 +75,7 @@ img.badge {
 }
 @media (max-width: 801px) {
         .card {
-                width: 96%;
+                width: 94%;
                 left: 1%;
         }
         img.screenshot {
