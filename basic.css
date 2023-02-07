@@ -34,6 +34,12 @@ h1, h2, h3 {
 .more-line-height {
         line-height: 1.6em;
 }
+.even-more-line-height {
+        line-height: 1.8em;
+}
+.double-line-height {
+        line-height: 2em;
+}
 
 a {
         text-decoration: none;
