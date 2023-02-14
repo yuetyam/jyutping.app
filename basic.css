@@ -64,6 +64,7 @@ a:hover {
 
 img.screenshot {
         width: 40%;
+        border-radius: 8px;
 }
 
 img.badge {
