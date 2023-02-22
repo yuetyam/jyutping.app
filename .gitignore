@@ -1,8 +1,14 @@
 .DS_Store
 .vscode/
 .idea/
+
 *.pkg
 *.zip
 *.xz
 *.dmg
 *.app/
+
+*.ttf
+*.otf
+*.ttc
+*.otc
