@@ -1,5 +1,5 @@
 html, body {
-        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, ChiuKong Gothic CL, Advocate Ancient Sans, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, ui-sans-serif, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Text, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, Advocate Ancient Sans, ChiuKong Gothic CL, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, ui-sans-serif, sans-serif;
         background: #efefef;
 }
 
@@ -11,7 +11,7 @@ pre {
         background: #efefef;
 }
 code {
-        font-family: "SF Mono", SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
+        font-family: SF Mono, SFMono-Regular, ui-monospace, Jetbrains Mono, Consolas, Menlo, monospace;
         font-size: 0.9em;
 }
 
