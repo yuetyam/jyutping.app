@@ -47,7 +47,7 @@ a {
 }
 a:hover {
         text-decoration: underline;
-        color: green;
+        color: #34A853;
 }
 
 .card {
@@ -86,7 +86,7 @@ img.badge {
                 left: 1%;
         }
         img.screenshot {
-                width: 70%;
+                width: 75%;
         }
 }
 
