@@ -55,6 +55,17 @@
                         </p>
                         <br>
                         <h2>
+                                我部 iPhone／iPad 鍵盤越用越窒，有冇辦法緩解？
+                        </h2>
+                        <p>
+                                可以嘗試去 系統設定App → 粵拼 → 鍵盤。
+                                <br>
+                                關閉一下「允許全權取用」，再開啓一下。
+                                <br>
+                                系統就會重啓個鍵盤，應該就會好返少少。
+                        </p>
+                        <br>
+                        <h2>
                                 點解 macOS 有時打毋出字？
                         </h2>
                         <p>
@@ -77,6 +88,18 @@
                                 方法三：去 Terminal(終端) 運行以下命令將佢結束運行：
                                 <pre><code>osascript -e 'tell application id "org.jyutping.inputmethod.Jyutping" to quit'</code></pre>
                                 方法四：登出電腦再登入，或者重啓電腦。
+                        </p>
+                        <br>
+                        <h2>
+                                點解 macOS 粵拼輸入法用 .pkg 而毋係 .dmg 來安裝？
+                        </h2>
+                        <p>
+                                原因一：輸入法需要安裝於 <code>/Library/Input Methods/</code> 目錄，而毋係通常嘅 <code>/Applications/</code> 目錄。修改 <code>/Library/Input Methods/</code> 目錄需要用戶授權。
+                                <br>
+                                原因二：安裝輸入法需要運行輸入法程式本身來做各種操作，仲需要運行一系列腳本(script)。
+                                <br>
+                                <br>
+                                以上惟有 .pkg 可以做到，而 .dmg 毋得。
                         </p>
                         <br>
                         <h2>
