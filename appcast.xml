@@ -3,19 +3,18 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.28.0</title>
-            <pubDate>Thu, 28 Sep 2023 18:06:12 +0800</pubDate>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>0.28.0</sparkle:shortVersionString>
+            <title>v0.30.0</title>
+            <pubDate>Fri, 20 Oct 2023 14:06:12 +0800</pubDate>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>0.30.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">
-• 適配新系統 macOS 14 Sonoma。
-• 改進標點符號輸入。
-• 更新詞庫。
+• 改進候選詞算法以提昇聲調輸入體驗。
+• 改進候選詞算法以提昇音節分隔符輸入體驗。
             </description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.28.0/Jyutping-v0.28.0-Mac-IME.pkg"
-                       sparkle:edSignature="IZ9O5EN05wLOwGNK8Op4443w2kqmEr89UbUmwG2N0hrADl0ZEnXW/h/2w8usHNo+VN2CSrc5XASivtZS157YCQ=="
-                       length="18532655"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.30.0/Jyutping-v0.30.0-Mac-IME.pkg"
+                       sparkle:edSignature="2cDS5zqbsbIwbd9IGDS4zKtI3U0Hyj6VyCoWFbY9H3QAxK+gNZKKxorbvj1XxYyoQAu9O9WY9vKG1Y1T5xGlAA=="
+                       length="18543833"
                        type="application/octet-stream"/>
         </item>
     </channel>
