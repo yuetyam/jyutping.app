@@ -57,10 +57,10 @@ a:hover {
         background: white;
         position: relative;
         width: 48%;
-        left: 24%;
+        left: 22%;
         margin-top: 1em;
         margin-bottom: 1em;
-        padding: 2%;
+        padding: 4%;
 }
 
 .green-block {
@@ -84,7 +84,7 @@ img.badge {
 
 @media (max-width: 1078px) {
         .card {
-                width: 60%;
+                width: 56%;
                 left: 18%;
         }
         img.screenshot {
@@ -93,8 +93,8 @@ img.badge {
 }
 @media (max-width: 801px) {
         .card {
-                width: 92%;
-                left: 2%;
+                width: 90%;
+                left: 1%;
         }
         img.screenshot {
                 width: 75%;
