@@ -63,6 +63,16 @@ a:hover {
         padding: 2%;
 }
 
+.green-block {
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 4px;
+        color: white;
+        background-color: #64C855;
+}
+
 img.screenshot {
         width: 40%;
         border-radius: 8px;
@@ -83,8 +93,8 @@ img.badge {
 }
 @media (max-width: 801px) {
         .card {
-                width: 94%;
-                left: 1%;
+                width: 92%;
+                left: 2%;
         }
         img.screenshot {
                 width: 75%;
