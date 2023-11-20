@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>粵拼輸入法 - 粵語輸入法、廣東話輸入法、Cantonese Keyboard</title>
         <meta name="description" content="粵語粵拼輸入法，支援 iOS 及 macOS。Cantonese Jyutping Input Method for iOS and macOS." />
-        <meta name="keywords" content="粵拼, 輸入法, 鍵盤, 粵語, 廣東話, 廣州話, Cantonese, Jyutping, Keyboard, Input Method, macOS, iOS, iPadOS, App" />
+        <meta name="keywords" content="粵拼, 輸入法, 鍵盤, 粵語, 廣東話, 廣州話, 粵語拼音, Cantonese, Jyutping, Keyboard, Input Method, macOS, iOS, iPadOS, App" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="粵拼輸入法 Cantonese Keyboard" />
@@ -20,9 +20,36 @@
 </head>
 
 <body>
+        <header>
+                <a class="header-logo" href="./"><img class="header-logo" src="images/icon.png" alt="Logo">粵拼輸入法</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="android">Android</a></li>
+                        <li><a href="ios">iOS</a></li>
+                        <li><a href="mac">macOS</a></li>
+                        <li><a href="windows">Windows</a></li>
+                        <li><a href="linux">Linux</a></li>
+                        <li><a href="web">網頁版</a></li>
+                        <li><a href="faq">常問問題</a></li>
+                        <li><a href="collection">資源彙總</a></li>
+                        <li><a href="code">源碼</a></li>
+                        <li><a href="privacy">私隱</a></li>
+                        <li><a href="about">關於</a></li>
+                </ul>
+        </header>
         <div class="card">
                 <h1>粵拼輸入法</h1>
-                Cantonese Jyutping Keyboard for iOS and macOS
+                <p class="left-align">
+                        粵拼輸入法簡單易用、範式明瞭，打字快速準確、得心應手。開箱即用，無需各種繁瑣設定。
+                        <br>
+                        採用 <a target="_blank" href="https://jyutping.org/jyutping">香港語言學學會粵語拼音方案</a>（粵拼／Jyutping）。
+                        詞庫碼表來自 CanCLID <a target="_blank" href="https://github.com/rime/rime-cantonese">Rime-Cantonese</a>。
+                        <br>
+                        目前已支援 iOS 及 macOS，其他平臺敬請期待。
+                </p>
                 <p>
                         <picture>
                                 <source srcset="images/screenshot-iphone-dark.png" media="(prefers-color-scheme: dark)">
@@ -92,14 +119,6 @@
                         <a href="https://jq.qq.com/?k=4PR17m3t" target="_blank">
                                 <img class="badge" src="images/qq.png" alt="QQ Badge">
                         </a>
-                </p>
-                <br>
-                <br>
-                <p>
-                        <a class="menu-item" href="faq">常問問題</a>
-                        <a class="menu-item" href="collection">資源彙總</a>
-                        <a class="menu-item" href="privacy">私隱</a>
-                        <a class="menu-item" href="about">關於</a>
                 </p>
         </div>
 </body>

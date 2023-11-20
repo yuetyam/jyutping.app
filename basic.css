@@ -1,6 +1,19 @@
+@import url(header.css);
+
 html, body {
         font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Text, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, Advocate Ancient Sans, ChiuKong Gothic CL, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
         background: #D6D8DD;
+        padding: 0;
+        margin: 0;
+}
+
+a {
+        text-decoration: none;
+        color: #1F9BF3;
+}
+a:hover {
+        text-decoration: underline;
+        color: #34A853;
 }
 
 pre {
@@ -42,25 +55,18 @@ h1, h2, h3 {
         line-height: 2em;
 }
 
-a {
-        text-decoration: none;
-        color: #1F9BF3;
-}
-a:hover {
-        text-decoration: underline;
-        color: #34A853;
-}
-
 .card {
         text-align: center;
-        border-radius: 16px;
+        border-radius: 32px;
         background: white;
-        position: relative;
         width: 48%;
-        left: 22%;
-        margin-top: 1em;
+        margin-left: 22%;
+        margin-top: 66px;
         margin-bottom: 1em;
-        padding: 4%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
 }
 
 .green-block {
@@ -84,17 +90,17 @@ img.badge {
 
 @media (max-width: 1078px) {
         .card {
-                width: 56%;
-                left: 18%;
+                width: 68%;
+                margin-left: 12%;
         }
         img.screenshot {
                 width: 60%;
         }
 }
-@media (max-width: 801px) {
+@media (max-width: 802px) {
         .card {
                 width: 90%;
-                left: 1%;
+                margin-left: 1%;
         }
         img.screenshot {
                 width: 75%;
