@@ -15,6 +15,10 @@ a:hover {
         text-decoration: underline;
         color: #34A853;
 }
+a.bookmark:hover {
+        text-decoration: none;
+        color: #1F9BF3;
+}
 
 pre {
         overflow: auto;
