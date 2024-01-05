@@ -3,19 +3,17 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.32.0</title>
-            <pubDate>Fri, 22 Dec 2023 22:30:12 +0800</pubDate>
-            <sparkle:version>106</sparkle:version>
-            <sparkle:shortVersionString>0.32.0</sparkle:shortVersionString>
+            <title>v0.33.0</title>
+            <pubDate>Fri, 05 Jan 2024 09:22:30 +0800</pubDate>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>0.33.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">
-• 改進候選詞視窗性能以及輸入體驗。
-• 改進用普通話拼音反查粵拼使用體驗。
-• 改進輸入算法邏輯。
+修復候選詞視窗喺 Spotlight 等程式可能被遮擋嘅問題。
             </description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.32.0/Jyutping-v0.32.0-Mac-IME.pkg"
-                       sparkle:edSignature="KCCst/e+PEKRB9mNxwtiXIHD5Gd0SWWa0rztI9Mu7CztnS6xpC8k5piVE04WmqOwd7zx3QhRAE7uJFGwa4SgAg=="
-                       length="18602445"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.33.0/Jyutping-v0.33.0-Mac-IME.pkg"
+                       sparkle:edSignature="PP1ibVuO43ZLoGmOqZUgS05xtMp8N5RwWwbl2aw8NhbTsqPeXi8smKT9GhyeUy9ctMHK4fkaXw+AEBcQD/iWBw=="
+                       length="18598763"
                        type="application/octet-stream"/>
         </item>
     </channel>
