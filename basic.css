@@ -1,7 +1,7 @@
 @import url(header.css);
 
 html, body {
-        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Text, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, Advocate Ancient Sans, ChiuKong Gothic CL, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Text, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, Advocate Ancient Sans, ChiuKong Gothic CL, Source Han Sans K, Noto Sans CJK KR, Sarasa Gothic CL, PingFang HK, Chiron Hei HK Text, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Noto Sans HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
         background: #D6D8DD;
         padding: 0;
         margin: 0;
