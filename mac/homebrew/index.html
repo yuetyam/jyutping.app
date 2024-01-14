@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="yue">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Homebrew 安裝 macOS 粵拼輸入法</title>
+        <meta name="description" content="通過 Homebrew 下載安裝 macOS 粵拼輸入法。Install Cantonese Jyutping Input Method via Homebrew." />
+        <meta name="keywords" content="粵拼, 輸入法, 鍵盤, 粵語, 廣東話, 廣州話, Cantonese, Jyutping, Keyboard, Input Method, macOS, Mac, Homebrew" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Homebrew 安裝 macOS 粵拼輸入法" />
+        <meta property="og:description" content="通過 Homebrew 下載安裝 macOS 粵拼輸入法。Install Cantonese Jyutping Input Method via Homebrew." />
+        <meta property="og:url" content="https://jyutping.app/mac/homebrew" />
+        <meta property="og:image" content="https://jyutping.app/images/icon.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <link rel="icon" type="image/png" href="../../images/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="../../images/icon.png" />
+        <link rel="stylesheet" type="text/css" href="../../basic.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="../../"><img class="header-logo" src="../../images/icon.png" alt="Logo">粵拼輸入法</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="../../android">Android</a></li>
+                        <li><a href="../../ios">iOS</a></li>
+                        <li><a href="../../mac">macOS</a></li>
+                        <li><a href="../../windows">Windows</a></li>
+                        <li><a href="../../faq">常問問題</a></li>
+                        <li><a href="../../collection">資源彙總</a></li>
+                        <li><a href="../../about">關於</a></li>
+                </ul>
+        </header>
+        <div class="card more-line-height">
+                <h1>
+                        Homebrew 安裝 macOS 粵拼輸入法
+                </h1>
+                <br>
+                <div class="left-align">
+                        <p>
+                                兼容：macOS 12 Monterey 或者更高
+                        </p>
+                        <h2>
+                                安裝 • Install
+                        </h2>
+                        <p>
+                                <pre><code>brew install --cask jyutping</code></pre>
+                        </p>
+                        <p>
+                                安裝之後，記得要登出一下電腦再登入，或者重啓一下電腦，以使輸入法正常生效。
+                        </p>
+                        <p>
+                                安裝之後，如果見毋到有粵拼輸入法，請前往 系統設定 → 鍵盤 → 輸入方式 度，手動添加。
+                                <br>
+                                添加箇陣，「粵拼/Jyutping」位於 Cantonese/粵語/廣東話 語言項，可以用 Jyutping/粵拼/粤拼 來搜尋搵。
+                                <br>
+                                <span class="footnote">
+                                        （請注意係 Cantonese/粵語/廣東話，而毋係 Cantonese, Traditional/繁體粵語/繁體廣東話。）
+                                </span>
+                        </p>
+                        <br>
+                        <h2>
+                                卸載 • Uninstall
+                        </h2>
+                        <p>
+                                卸載輸入法：
+                        </p>
+                        <p>
+                                <pre><code>brew uninstall --cask jyutping</code></pre>
+                        </p>
+                        <br>
+                        <p>
+                                卸載輸入法並刪除相關檔案／檔案夾：
+                        </p>
+                        <p>
+                                <pre><code>brew uninstall --zap --cask jyutping</code></pre>
+                        </p>
+                        <br>
+                        <p>
+                                卸載完之後，記得同樣要登出一下電腦再登入，或者重啓一下電腦。
+                        </p>
+                </div>
+        </div>
+</body>
+
+</html>
