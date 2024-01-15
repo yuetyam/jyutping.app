@@ -43,8 +43,11 @@
                 <br>
                 <div class="left-align">
                         <p>
-                                如果你需要卸載（Uninstall）macOS 粵拼輸入法：
+                                如果你嘅輸入法係通過 Homebrew 安裝嘅，卸載請參攷: <a href="../homebrew">Homebrew 安裝 macOS 粵拼輸入法</a>
                         </p>
+                        <h2>
+                                卸載（Uninstall）macOS 粵拼輸入法
+                        </h2>
                         <p>
                                 前往 系統設定 → 鍵盤 → 輸入方式，移除「粵拼/Jyutping」。
                         </p>
@@ -57,6 +60,15 @@
 ~/Library/Containers/org.jyutping.inputmethod.Jyutping</code></pre>
                         <p>
                                 最後，登出電腦再登入，或者重啓電腦。
+                        </p>
+                        <br>
+                        <p>
+                                如果刪除 <code>/Library/Input\ Methods/Jyutping.app</code> 時，彈提示話佢運行緊、無法刪除。可能需要先將佢結束運行：
+                                <br>
+                                方法一：去 Activity Monior(活動監視器) 搵到「粵拼/Jyutping」，將佢結束運行。
+                                <br>
+                                方法二：去 Terminal(終端) 運行以下命令將佢結束運行：
+                                <pre><code>osascript -e 'tell application id "org.jyutping.inputmethod.Jyutping" to quit'</code></pre>
                         </p>
                 </div>
         </div>
