@@ -3,17 +3,17 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.33.0</title>
-            <pubDate>Fri, 05 Jan 2024 09:22:30 +0800</pubDate>
-            <sparkle:version>107</sparkle:version>
-            <sparkle:shortVersionString>0.33.0</sparkle:shortVersionString>
+            <title>v0.34.0</title>
+            <pubDate>Wen, 31 Jan 2024 01:30:00 +0800</pubDate>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>0.34.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">
-修復候選詞視窗喺 Spotlight 等程式可能被遮擋嘅問題。
+問題修復以及使用體驗提昇。
             </description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.33.0/Jyutping-v0.33.0-Mac-IME.pkg"
-                       sparkle:edSignature="PP1ibVuO43ZLoGmOqZUgS05xtMp8N5RwWwbl2aw8NhbTsqPeXi8smKT9GhyeUy9ctMHK4fkaXw+AEBcQD/iWBw=="
-                       length="18598763"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.34.0/Jyutping-v0.34.0-Mac-IME.pkg"
+                       sparkle:edSignature="+xylM2/DmPn3uqNmERMt4XxRmX5ZfhuLsExna+DuFNmKoGML8Dqj78p+ilk7brlIkbMCgc0Ofylg8DQMJ59DBA=="
+                       length="18595761"
                        type="application/octet-stream"/>
         </item>
     </channel>
