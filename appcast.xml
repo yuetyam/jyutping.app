@@ -3,17 +3,17 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.34.0</title>
-            <pubDate>Wen, 31 Jan 2024 01:30:00 +0800</pubDate>
-            <sparkle:version>108</sparkle:version>
-            <sparkle:shortVersionString>0.34.0</sparkle:shortVersionString>
+            <title>v0.35.0</title>
+            <pubDate>Wen, 31 Jan 2024 13:00:00 +0800</pubDate>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>0.35.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">
-問題修復以及使用體驗提昇。
+減小 pkg 體積，改進安裝流程。
             </description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.34.0/Jyutping-v0.34.0-Mac-IME.pkg"
-                       sparkle:edSignature="+xylM2/DmPn3uqNmERMt4XxRmX5ZfhuLsExna+DuFNmKoGML8Dqj78p+ilk7brlIkbMCgc0Ofylg8DQMJ59DBA=="
-                       length="18595761"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.35.0/Jyutping-v0.35.0-Mac-IME.pkg"
+                       sparkle:edSignature="8pQIAjzE8TpIL5q5Tt5rn5Aw0FMGVbRluypb2Svw7VFfHCBbFlpUztqO/NntRsDmXkRo+yRB3LP/m/vKB5z5BA=="
+                       length="12761745"
                        type="application/octet-stream"/>
         </item>
     </channel>
