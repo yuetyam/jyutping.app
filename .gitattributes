@@ -1,9 +1,24 @@
-*.jpg binary
-*.jpeg binary
-*.png binary
+# Image
 *.apng binary
+*.avif binary
+*.gif binary
+*.heic binary
+*.heif binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.svg binary
 *.webp binary
-*.ico binary
+
+# Video
+*.av1 binary
+*.mov binary
 *.mp4 binary
 *.webm binary
-*.gif binary
+
+# Font
+*.otc binary
+*.otf binary
+*.ttc binary
+*.ttf binary
