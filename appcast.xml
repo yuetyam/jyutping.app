@@ -3,23 +3,24 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.42.0</title>
-            <pubDate>Sun, 12 May 2024 22:22:22 +0800</pubDate>
-            <sparkle:version>116</sparkle:version>
-            <sparkle:shortVersionString>0.42.0</sparkle:shortVersionString>
+            <title>v0.43.0</title>
+            <pubDate>Sun, 26 May 2024 18:30:00 +0800</pubDate>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>0.43.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">
-• 支援某啲英文名稱作爲候選詞輸入，例如 Wi-Fi、iOS、macOS 等。
-• 稍爲改進用普通話拼音反查粵拼。
-• 其他問題修復以及性能提昇。
+• 候選詞䈎面排列方向可選擇橫向或縱向。
+• 候選詞粵拼註釋擺放位置可選擇爲上邊、下邊、右邊等。
+• 修復使用外置螢屏時候選詞視窗可能冇正確擺位嘅問題。
+• 改進用倉頡、筆畫、普通話拼音等反查粵拼嘅使用體驗。
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
 
 如果通過「檢查更新／自動更新」更新失敗，請前往官網下載安裝最新版。
             </description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.42.0/Jyutping-v0.42.0-Mac-IME.pkg"
-                       sparkle:edSignature="+go6fmkxnu841qkTKOI/IYJib/kkANqUpT2BJhx00Q1jdP1ODNAay3EOh6VzkvJxgE61gPxc4e8Z+nFDylf1DQ=="
-                       length="13546050"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.43.0/Jyutping-v0.43.0-Mac-IME.pkg"
+                       sparkle:edSignature="ikVK3sGLh1FpPoLKxAity3fdLphwE5D8Uuf8kXqK56cPQfTyUP25QrB5FGt3xQhe6e0HM26mHQtuyL9e3stRCg=="
+                       length="14996227"
                        type="application/octet-stream"/>
         </item>
     </channel>
