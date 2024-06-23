@@ -14,7 +14,13 @@ selectElement.addEventListener("change", (event) => {
                         url.pathname = pathParts.join('/')
                         break
                 default:
-                        url.pathname = '/' + langTag + '/' + url.pathname
+                        if (langTag != '') {
+                                if (url.pathname == '') {
+                                        url.pathname = '/' + langTag
+                                } else {
+                                        url.pathname = '/' + langTag + '/' + url.pathname
+                                }
+                        }
                         break
         }
         window.location.href = url.toString();
