@@ -1,27 +1,13 @@
 const selectElement = document.querySelector(".language");
 selectElement.addEventListener("change", (event) => {
         const langTag = event.target.value;
-        const address = window.location.href;
-        let url = new URL(address);
-        let pathParts = url.pathname.split('/');
-        switch (pathParts[1]) {
-                case 'cmn':
-                        pathParts[1] = langTag
-                        url.pathname = pathParts.join('/')
-                        break
-                case 'en':
-                        pathParts[1] = langTag
-                        url.pathname = pathParts.join('/')
-                        break
-                default:
-                        if (langTag != '') {
-                                if (url.pathname == '') {
-                                        url.pathname = '/' + langTag
-                                } else {
-                                        url.pathname = '/' + langTag + '/' + url.pathname
-                                }
-                        }
-                        break
+        const url = new URL(window.location.href);
+        const pathParts = url.pathname.split('/');
+        if (['cmn', 'en'].includes(pathParts[1])) {
+                pathParts[1] = langTag;
+        } else if (langTag) {
+                pathParts.unshift(langTag);
         }
+        url.pathname = pathParts.join('/');
         window.location.href = url.toString();
 });
