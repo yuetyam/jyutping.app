@@ -4,7 +4,7 @@ selectElement.addEventListener("change", (event) => {
         const url = new URL(window.location.href);
         let pathParts = url.pathname.split('/').filter(part => part !== '');
         if (pathParts[0] && ['cmn', 'en'].includes(pathParts[0])) {
-                pathParts[0] = langTuage
+                pathParts[0] = code
         } else if (code) {
                 pathParts.unshift(code);
         }
