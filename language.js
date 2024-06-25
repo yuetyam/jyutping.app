@@ -6,10 +6,10 @@ selectElement.addEventListener("change", (event) => {
         if (code) {
                 if (pn.startsWith("/cmn/")) {
                         const regex = /^\/cmn\//;
-                        url.pathname = pn.replace(regex, `/${code}`);
+                        url.pathname = pn.replace(regex, `/${code}/`);
                 } else if (pn.startsWith("/en/")) {
                         const regex = /^\/en\//;
-                        url.pathname = pn.replace(regex, `/${code}`);
+                        url.pathname = pn.replace(regex, `/${code}/`);
                 } else {
                         url.pathname = "/" + code + pn;
                 }
