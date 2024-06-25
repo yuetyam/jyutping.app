@@ -5,21 +5,21 @@ selectElement.addEventListener("change", (event) => {
         const pn = url.pathname;
         if (code) {
                 if (pn.startsWith("/cmn/")) {
-                        const regex = /^\/cmn\//;
-                        url.pathname = pn.replace(regex, `/${code}/`);
+                        const regex = /^\/cmn/;
+                        url.pathname = pn.replace(regex, `/${code}`);
                 } else if (pn.startsWith("/en/")) {
-                        const regex = /^\/en\//;
-                        url.pathname = pn.replace(regex, `/${code}/`);
+                        const regex = /^\/en/;
+                        url.pathname = pn.replace(regex, `/${code}`);
                 } else {
                         url.pathname = "/" + code + pn;
                 }
         } else {
                 if (pn.startsWith("/cmn/")) {
-                        const regex = /^\/cmn\//;
-                        url.pathname = pn.replace(regex, '/');
+                        const regex = /^\/cmn/;
+                        url.pathname = pn.replace(regex, '');
                 } else if (pn.startsWith("/en/")) {
-                        const regex = /^\/en\//;
-                        url.pathname = pn.replace(regex, '/');
+                        const regex = /^\/en/;
+                        url.pathname = pn.replace(regex, '');
                 }
         }
         const trailingSlash = /\/+$/;
