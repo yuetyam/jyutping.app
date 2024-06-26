@@ -23,7 +23,7 @@ a.bookmark:hover {
 pre {
         overflow: auto;
         white-space: pre;
-        padding: 0.8em;
+        padding: 0.5em;
         border-radius: 0.8em;
         background: #D6D8DD;
 }
@@ -39,6 +39,7 @@ h1, h2, h3 {
 
 .footnote {
         font-size: 0.9em;
+        line-height: 1.4em;
 }
 
 .menu-item {
