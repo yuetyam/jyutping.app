@@ -13,7 +13,9 @@
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
 
-如果通過「檢查更新／自動更新」更新失敗，請前往官網下載安裝最新版。
+由於 macOS 對輸入法嘅管理情況比較複雜，粵拼輸入法內置嘅「檢查更新／自動更新」有可能會更新失敗。
+
+如果更新失敗，請前往官網下載安裝最新版。
             </description>
             <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.46.0/Jyutping-v0.46.0-Mac-IME.pkg"
                        sparkle:edSignature="oIyYWfYYd4ybyixNwx8dEjx1ojcJGjWUFjwLXpEJs+Dphia5Og00oieqiXFzmHP2N/34X4nWWAIyS19n+zLBAA=="
