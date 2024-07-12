@@ -66,14 +66,12 @@
                         </a>
                         <p>
                                 有幾點需要注意：
-                                <br>
-                                1. 應用程式使用嘅係，系統提供嘅文字語音朗讀（TTS）功能。
-                                <br>
-                                2. 如果設備處於靜音狀態，文字語音朗讀可能會冇聲音。
-                                <br>
-                                3. 爲保證發音質素，請前往 設定 → 一般 → 語言與地區，添加 繁體中文(香港) 語言。
-                                <br>
-                                4. 爲提高發音質素，請前往 設定 → 輔助使用 → 旁白 → 語音，添加 繁體中文(香港) 語音。
+                                <ol>
+                                        <li>應用程式使用嘅係，系統提供嘅文字語音朗讀（TTS）功能。</li>
+                                        <li>如果設備處於靜音狀態，文字語音朗讀可能會冇聲音。</li>
+                                        <li>爲保證發音質素，請前往 設定 → 一般 → 語言與地區，添加 繁體中文(香港) 語言。</li>
+                                        <li>爲提高發音質素，請前往 設定 → 輔助使用 → 旁白 → 語音，添加 繁體中文(香港) 語音。</li>
+                                </ol>
                         </p>
                         <br id="hans">
                         <a class="bookmark" href="#hans">
@@ -93,21 +91,23 @@
                         </p>
                         <p>
                                 亦有可能係輸入法自己嘅問題，請嘗試：
-                                <br>
-                                • 切換到其他輸入法，再切換返來。
-                                <br>
-                                • 換一個地方／視窗打字，再換返來。
-                                <br>
-                                • 將輸入對象App結束運行，再重新開啓。
+                                <ul>
+                                        <li>切換到其他輸入法，再切換返來。</li>
+                                        <li>換一個地方／視窗打字，再換返來。</li>
+                                        <li>將輸入對象App結束運行，再重新開啓。</li>
+                                </ul>
                         </p>
                         <p>
-                                如果再毋得，可能要將邇個輸入法結束運行。
-                                <br>
-                                方法一：去 Activity Monior(活動監視器) 搵到「粵拼/Jyutping」，將佢結束運行。
-                                <br>
-                                方法二：去 Terminal(終端) 運行以下命令將佢結束運行：
-                                <pre><code>osascript -e 'tell application id "org.jyutping.inputmethod.Jyutping" to quit'</code></pre>
-                                方法三：登出電腦再登入，或者重啓電腦。
+                                如果再毋得，可能要將個輸入法結束運行。有幾種方法：
+                                <ul>
+                                        <li>去 Activity Monior(活動監視器) 搵到「粵拼/Jyutping」，將佢結束運行。</li>
+                                        <li>
+                                                去 Terminal(終端) 運行以下命令將佢結束運行：
+                                                <br>
+                                                <pre><code>osascript -e 'tell application id "org.jyutping.inputmethod.Jyutping" to quit'</code></pre>
+                                        </li>
+                                        <li>登出電腦再登入，或者重啓電腦。</li>
+                                </ul>
                         </p>
                         <br id="google-docs">
                         <a class="bookmark" href="#google-docs">
@@ -136,11 +136,17 @@
                                 <h2>點解 macOS 輸入法用 .pkg 來安裝？</h2>
                         </a>
                         <p>
-                                • <a target="_blank" href="https://developer.apple.com/forums/thread/134115">第三方輸入法無法上架 Mac App Store</a>。
-                                <br>
-                                • 輸入法需要安裝於 <code>/Library/Input\ Methods/</code> 目錄，而毋係通常嘅 <code>/Applications/</code> 目錄。安裝過程中需要詢問用戶授權。
-                                <br>
-                                • 安裝輸入法需要運行輸入法程式本身來做各種操作，仲需要運行一系列腳本(script)。
+                                <ul>
+                                        <li>
+                                                <a target="_blank" href="https://developer.apple.com/forums/thread/134115">第三方輸入法無法上架 Mac App Store</a>。
+                                        </li>
+                                        <li>
+                                                輸入法安裝需要詢問用戶授權以安裝於 <code>/Library/Input\ Methods/</code> 目錄。
+                                        </li>
+                                        <li>
+                                                安裝輸入法需要運行輸入法程式自身來做各種操作，仲需要運行一系列腳本(script)。
+                                        </li>
+                                </ul>
                         </p>
                         <br id="mac-upgrade">
                         <a class="bookmark" href="#mac-upgrade">

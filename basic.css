@@ -52,12 +52,11 @@ h1, h2, h3 {
         line-height: 1.4em;
 }
 
-.menu-item {
-        padding: 1em;
-}
-
 .left-align {
         text-align: left;
+}
+.center-align {
+        text-align: center;
 }
 
 .more-line-height {
