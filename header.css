@@ -23,7 +23,7 @@ a.header-logo {
 }
 
 a.header-logo:hover {
-        color: #1F9BF3;
+        color: #007FFF;
         text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ img.header-logo {
 }
 
 .menu>li>a:hover {
-        color: #1F9BF3;
+        color: #007FFF;
         text-decoration: none;
 }
 
