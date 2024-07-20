@@ -19,6 +19,9 @@ a.bookmark:hover {
         text-decoration: none;
         color: #1F9BF3;
 }
+a.download {
+        font-size: 1.1em;
+}
 
 pre {
         overflow: auto;
