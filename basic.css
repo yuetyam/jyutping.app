@@ -1,23 +1,33 @@
 @import url(header.css);
 
+:root {
+        --color-blue: #007FFF;
+        --color-green: #34A853;
+        --color-light-background: #D6D8DD;
+        --color-dark-background: black;
+        --color-card-light-background: white;
+        --color-card-dark-background: #1c1c1c;
+        --font-family-mono: Monaspace Neon, Jetbrains Mono, SF Mono, SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
+}
+
 html, body {
-        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, Shanggu Sans, ChiuKong Gothic CL, Chocolate Classical Sans, Sarasa Gothic CL, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
-        background: #D6D8DD;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, Shanggu Sans, ChiuKong Gothic CL, Chocolate Classical Sans, Sarasa Gothic CL, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Microsoft JhengHei, ui-sans-serif, sans-serif, Apple Color Emoji, Apple Symbols, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol, OpenMoji;
+        background: var(--color-light-background);
         padding: 0;
         margin: 0;
 }
 
 a {
         text-decoration: none;
-        color: #007FFF;
+        color: var(--color-blue);
 }
 a:hover {
         text-decoration: underline;
-        color: #34A853;
+        color: var(--color-green);
 }
 a.bookmark:hover {
         text-decoration: none;
-        color: #007FFF;
+        color: var(--color-blue);
 }
 a.download {
         font-size: 1.1em;
@@ -28,20 +38,20 @@ pre {
         white-space: pre;
         padding: 0.5em;
         border-radius: 0.8em;
-        background: #D6D8DD;
+        background: var(--color-light-background);
 }
 code {
-        font-family: Monaspace Neon, Jetbrains Mono, SF Mono, SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
+        font-family: var(--font-family-mono);
         font-size: 0.9em;
 }
 kbd {
         display: inline-block;
-        background: #eeeeee;
+        background: var(--color-light-background);
         border-radius: 4px;
-        border: 1px solid #D6D8DD;
+        border: 1px solid gray;
         padding: 2px 4px;
         line-height: 1;
-        font-family: Monaspace Neon, Jetbrains Mono, SF Mono, SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
+        font-family: var(--font-family-mono);
         font-size: 0.9em;
 }
 
@@ -75,7 +85,7 @@ h1, h2, h3 {
 .card {
         text-align: center;
         border-radius: 32px;
-        background: white;
+        background: var(--color-card-light-background);
         width: 48%;
         margin-left: 22%;
         margin-top: 56px;
@@ -93,7 +103,7 @@ h1, h2, h3 {
         padding-bottom: 2px;
         border-radius: 4px;
         color: white;
-        background: #34A853;
+        background: var(--color-green);
 }
 
 img.screenshot {
@@ -130,15 +140,15 @@ img.qrcode {
 @media(prefers-color-scheme: dark) {
         html, body {
                 color: white;
-                background: black;
+                background: var(--color-dark-background);
         }
         pre {
-                background: black;
+                background: var(--color-dark-background);
         }
         kbd {
-                background: black;
+                background: var(--color-dark-background);
         }
         .card {
-                background: #1c1c1c;
+                background: var(--color-card-dark-background);
         }
 }
