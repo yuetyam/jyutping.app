@@ -4,7 +4,7 @@ header {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        background-color: white;
+        background: white;
         height: 44px;
         padding-left: 1em;
         padding-right: 1em;
@@ -42,9 +42,9 @@ img.header-logo {
 }
 
 .menu>li {
-        margin: 0 1em;
+        margin: 0 1.4em;
         overflow: hidden;
-        background-color: white;
+        background: white;
 }
 
 .menu>li>a {
@@ -75,7 +75,7 @@ img.header-logo {
 .menu-button::before,
 .menu-button::after {
         display: block;
-        background-color: black;
+        background: black;
         position: absolute;
         height: 4px;
         width: 30px;
@@ -147,7 +147,7 @@ img.header-logo {
 
 @media(prefers-color-scheme: dark) {
         header {
-                background-color: #1c1c1c;
+                background: #1c1c1c;
                 border-bottom: 1px solid black;
         }
 
@@ -162,10 +162,10 @@ img.header-logo {
         .menu-button,
         .menu-button::before,
         .menu-button::after {
-                background-color: white;
+                background: white;
         }
 
         .menu>li {
-                background-color: #1c1c1c;
+                background: #1c1c1c;
         }
 }

@@ -11,7 +11,7 @@
 }
 
 html, body {
-        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, Noto Sans, Arial, Shanggu Sans, ChiuKong Gothic CL, Chocolate Classical Sans, Sarasa Gothic CL, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Microsoft JhengHei, ui-sans-serif, sans-serif, Apple Color Emoji, Apple Symbols, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol, OpenMoji;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, Shanggu Sans, ChiuKong Gothic CL, Chocolate Classical Sans, Sarasa Gothic CL, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
         background: var(--color-light-background);
         padding: 0;
         margin: 0;
