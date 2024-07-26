@@ -12,6 +12,7 @@ header {
         left: 0;
         width: calc(100% - 2em);
         border-bottom: 1px solid #D6D8DD;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, LXGW XiHei CL, PingFang HK, LXGW Neo XiHei, Microsoft JhengHei, ui-sans-serif, sans-serif;
 }
 
 a.header-logo {
@@ -21,7 +22,6 @@ a.header-logo {
         display: flex;
         gap: 4px;
 }
-
 a.header-logo:hover {
         color: #007FFF;
         text-decoration: none;
