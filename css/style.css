@@ -1,0 +1,91 @@
+@import url(base.css);
+
+a.bookmark:hover {
+        text-decoration: none;
+        color: var(--color-blue);
+}
+a.download {
+        font-size: 1.1em;
+}
+
+.footnote {
+        font-size: 0.9em;
+        line-height: 1.4em;
+}
+
+img.badge {
+        width: 160px;
+}
+img.screenshot {
+        width: 36%;
+        border-radius: 8px;
+}
+
+div.card {
+        text-align: center;
+        border-radius: 32px;
+        width: 48%;
+        margin-left: 22%;
+        margin-top: 56px;
+        margin-bottom: 1em;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+}
+
+@media (max-width: 1078px) {
+        div.card {
+                width: 68%;
+                margin-left: 12%;
+        }
+        img.screenshot {
+                width: 60%;
+        }
+}
+@media (max-width: 802px) {
+        div.card {
+                width: 90%;
+                margin-left: 1%;
+        }
+        img.screenshot {
+                width: 75%;
+        }
+}
+
+@media(prefers-color-scheme: light) {
+        html, body {
+                color: black;
+                background: var(--color-light-background);
+        }
+        pre {
+                background: var(--color-light-background);
+        }
+        kbd {
+                background: var(--color-light-background);
+        }
+        div.card {
+                background: var(--color-card-light-background);
+        }
+        img.qrcode {
+                width: 172px;
+        }
+}
+@media(prefers-color-scheme: dark) {
+        html, body {
+                color: white;
+                background: var(--color-dark-background);
+        }
+        pre {
+                background: var(--color-dark-background);
+        }
+        kbd {
+                background: var(--color-dark-background);
+        }
+        div.card {
+                background: var(--color-card-dark-background);
+        }
+        img.qrcode {
+                width: 158px;
+        }
+}

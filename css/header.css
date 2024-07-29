@@ -1,29 +1,28 @@
+@import url(base.css);
+
 header {
         position: fixed;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        background: white;
         height: 44px;
         padding-left: 1em;
         padding-right: 1em;
         top: 0;
         left: 0;
         width: calc(100% - 2em);
-        border-bottom: 1px solid #D6D8DD;
-        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, LXGW XiHei CL, PingFang HK, LXGW Neo XiHei, Microsoft JhengHei, ui-sans-serif, sans-serif;
+        font-family: var(--font-family-header);
 }
 
 a.header-logo {
-        color: black;
+        display: flex;
         text-decoration: none;
         font-size: 1.4em;
-        display: flex;
         gap: 4px;
 }
 a.header-logo:hover {
-        color: #007FFF;
+        color: var(--color-blue);
         text-decoration: none;
 }
 
@@ -44,16 +43,13 @@ img.header-logo {
 .menu>li {
         margin: 0 1.4em;
         overflow: hidden;
-        background: white;
 }
 
 .menu>li>a {
-        color: black;
         text-decoration: none;
 }
-
 .menu>li>a:hover {
-        color: #007FFF;
+        color: var(--color-blue);
         text-decoration: none;
 }
 
@@ -75,7 +71,6 @@ img.header-logo {
 .menu-button::before,
 .menu-button::after {
         display: block;
-        background: black;
         position: absolute;
         height: 4px;
         width: 30px;
@@ -145,10 +140,34 @@ img.header-logo {
         }
 }
 
+@media(prefers-color-scheme: light) {
+        header {
+                background: var(--color-card-light-background);
+                border-bottom: 1px solid var(--color-light-background);
+        }
+
+        a.header-logo {
+                color: black;
+        }
+
+        .menu>li>a {
+                color: black;
+        }
+
+        .menu-button,
+        .menu-button::before,
+        .menu-button::after {
+                background: black;
+        }
+
+        .menu>li {
+                background: var(--color-card-light-background);
+        }
+}
 @media(prefers-color-scheme: dark) {
         header {
-                background: #1c1c1c;
-                border-bottom: 1px solid black;
+                background: var(--color-card-dark-background);
+                border-bottom: 1px solid var(--color-dark-background);
         }
 
         a.header-logo {
@@ -166,6 +185,6 @@ img.header-logo {
         }
 
         .menu>li {
-                background: #1c1c1c;
+                background: var(--color-card-dark-background);
         }
 }
