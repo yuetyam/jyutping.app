@@ -13,11 +13,11 @@
 • 改進聲調輸入以及音節分隔。
 • 其他問題修復以及性能提昇。
 
-更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
-
 由於 macOS 對輸入法嘅管理情況比較複雜，粵拼輸入法內置嘅「檢查更新／自動更新」有可能會更新失敗。
 
-如果更新失敗，請前往官網下載安裝最新版。
+最簡單、穩陣、高效嘅更新方式，係前往官網下載安裝最新版。
+
+更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
             </description>
             <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.48.0/Jyutping-v0.48.0-Mac-IME.pkg"
                        sparkle:edSignature="5pApLCPdzOVuI7LYvLGVfSYraYTA5M2vhNxIxbWR4wG2Q2Torbn6k/ibNMf1rLR5abzKiQc3JXhev8hFj6+lCQ=="
