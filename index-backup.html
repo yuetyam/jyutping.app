@@ -22,6 +22,32 @@
 </head>
 
 <body>
+        <header>
+                <a class="header-logo" href="./"><img class="header-logo" src="images/icon.png" alt="Logo">粵拼輸入法</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <!--
+                        <li>
+                                <label for="language">&#x1f30f</label>
+                                <select class="language" name="language" id="language">
+                                        <option value="" selected>粵語 (yue)</option>
+                                        <option value="cmn">普通話 (cmn)</option>
+                                        <option value="en">English (en)</option>
+                                </select>
+                        </li>
+                        -->
+                        <li><a href="android">Android</a></li>
+                        <li><a href="ios">iOS</a></li>
+                        <li><a href="mac">macOS</a></li>
+                        <li><a href="windows">Windows</a></li>
+                        <li><a href="faq">常問問題</a></li>
+                        <li><a href="collection">資源彙集</a></li>
+                        <li><a href="about">關於</a></li>
+                </ul>
+        </header>
         <div class="card">
                 <h1>粵拼輸入法</h1>
                 <p class="left-align even-more-line-height">
@@ -44,6 +70,21 @@
                 <br>
                 <br>
                 <p>
+                        <picture>
+                                <source srcset="images/screenshot-iphone-dark.png" media="(prefers-color-scheme: dark)">
+                                <img class="screenshot" src="images/screenshot-iphone.png" alt="iPhone Screenshot">
+                        </picture>
+                </p>
+                <br>
+                <p>
+                        <picture>
+                                <source srcset="images/screenshot-mac-dark.png" media="(prefers-color-scheme: dark)">
+                                <img class="screenshot" src="images/screenshot-mac.png" alt="macOS Screenshot">
+                        </picture>
+                </p>
+                <br>
+                <br>
+                <p>
                         <a href="https://apps.apple.com/hk/app/id1509367629" target="_blank">
                                 <img class="badge" src="images/badge-app-store-download.svg" alt="App Store badge">
                         </a>
@@ -62,6 +103,28 @@
                                 <img class="qrcode" src="images/qrcode-testflight.png" alt="TestFlight QR Code">
                         </a>
                 </p>
+
+                <br>
+                <br>
+
+                <p>
+                        <a href="mac"><img class="badge" src="images/badge-mac-version.png" alt="macOS badge"></a>
+                </p>
+                <p>
+                        <a href="android"><img class="badge" src="images/badge-android-version.png" alt="Android badge"></a>
+                </p>
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <p class="even-more-line-height">
+                        如果你想支持作者開發，歡迎捐贈贊助：
+                        <br>
+                        <a target="_blank" href="https://zheung.org/donate">https://zheung.org/donate</a>
+                </p>
+                <br>
         </div>
 </body>
 
