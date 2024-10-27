@@ -5,7 +5,7 @@
         --color-dark-background: black;
         --color-card-light-background: white;
         --color-card-dark-background: #1c1c1c;
-        --font-family-base: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, Shanggu Sans, ChiuKong Gothic CL, Chocolate Classical Sans, Sarasa Gothic CL, Source Han Sans K, Noto Sans CJK KR, Noto Sans KR, PingFang HK, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
+        --font-family-base: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, Shanggu Sans, ChiuKong Gothic CL, Chocolate Classical Sans, Sarasa Gothic CL, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
         --font-family-header: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, LXGW XiHei CL, PingFang HK, LXGW Neo XiHei, Shanggu Sans, ChiuKong Gothic CL, Microsoft JhengHei, ui-sans-serif, sans-serif;
         --font-family-mono: Monaspace Neon, Jetbrains Mono, SF Mono, SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
 }
