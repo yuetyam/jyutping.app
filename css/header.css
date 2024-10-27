@@ -12,7 +12,7 @@ header {
         top: 0;
         left: 0;
         width: calc(100% - 2em);
-        font-family: var(--font-family-header);
+        font-family: var(--font-family-base);
 }
 
 a.header-logo {
