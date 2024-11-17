@@ -16,6 +16,9 @@ a.download {
 img.badge {
         width: 160px;
 }
+img.image {
+        width: 260px;
+}
 img.screenshot {
         width: 36%;
         border-radius: 8px;
