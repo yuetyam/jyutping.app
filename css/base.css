@@ -7,11 +7,12 @@
         --color-card-dark-background: #1c1c1c;
         --font-family-base: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, Shanggu Sans, ChiuKong Gothic CL, Chocolate Classical Sans, Sarasa Gothic CL, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
         --font-family-header: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Roboto, Segoe UI, Helvetica Neue, LXGW XiHei CL, PingFang HK, LXGW Neo XiHei, Shanggu Sans, ChiuKong Gothic CL, Microsoft JhengHei, ui-sans-serif, sans-serif;
-        --font-family-mono: Monaspace Neon, Jetbrains Mono, SF Mono, SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
+        --font-family-mono: Jetbrains Mono, SF Mono, Monaspace Neon, SFMono-Regular, ui-monospace, Consolas, Menlo, monospace;
 }
 
 html, body {
         font-family: var(--font-family-base);
+        text-spacing-trim: trim-start;
         padding: 0;
         margin: 0;
 }
@@ -38,6 +39,7 @@ pre {
 }
 code {
         font-family: var(--font-family-mono);
+        font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
         font-size: 0.9em;
 }
 kbd {
@@ -47,6 +49,7 @@ kbd {
         padding: 2px 4px;
         line-height: 1;
         font-family: var(--font-family-mono);
+        font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
         font-size: 0.9em;
 }
 
