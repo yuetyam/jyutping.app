@@ -3,14 +3,14 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.50.0</title>
-            <pubDate>Thu, 17 Oct 2024 05:00:00 +0800</pubDate>
-            <sparkle:version>129</sparkle:version>
-            <sparkle:shortVersionString>0.50.0</sparkle:shortVersionString>
+            <title>v0.51.0</title>
+            <pubDate>Wed, 18 Dec 2024 05:00:00 +0800</pubDate>
+            <sparkle:version>130</sparkle:version>
+            <sparkle:shortVersionString>0.51.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">
-• 改進輸入位置判定以及候選詞視窗位置。
-• 改進候選詞視窗性能。
+• 改进输入唔完整音节嘅处理算法，例如「杜林普」可以用 dlpou 或 doulp 输入。
+• 改进打字时嘅 Emoji 候选词列表。
 • 其他問題修復以及性能提昇。
 
 由於 macOS 對輸入法嘅管理情況比較複雜，粵拼輸入法內置嘅「檢查更新／自動更新」有可能會更新失敗。
@@ -19,9 +19,9 @@
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
             </description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.50.0/Jyutping-v0.50.0-Mac-IME.pkg"
-                       sparkle:edSignature="eLQ7O2GKfCw+HwTs6KrY4klii4RLx8iUd2IcZ5v41Xky4UaxgUfwPH58SzLQ3BZxTKebx3fLHPSbQVphyA/iAg=="
-                       length="20865790"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.51.0/Jyutping-v0.51.0-Mac-IME.pkg"
+                       sparkle:edSignature="3syLeCXim3RDW1MuS4+j5GjbpZNm1Klbt7TaIo4n2/GBK7S4fkUB+b+9dsbNisSoN4yI2lbJEVA3sFz9JMbNCw=="
+                       length="20944108"
                        type="application/octet-stream"/>
         </item>
     </channel>
