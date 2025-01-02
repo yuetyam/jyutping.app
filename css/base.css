@@ -42,6 +42,10 @@ code {
         font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
         font-size: 0.9em;
 }
+code.line-block {
+        border-radius: 4px;
+        padding: 2px 6px;
+}
 kbd {
         display: inline-block;
         border-radius: 4px;

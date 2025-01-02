@@ -47,31 +47,40 @@
                         <p>
                                 如果你嘅輸入法係通過 Homebrew 安裝嘅，卸載請參攷: <a href="../homebrew">Homebrew 安裝 macOS 粵拼輸入法</a>
                         </p>
-                        <h2>
-                                卸載（Uninstall）macOS 粵拼輸入法
-                        </h2>
                         <p>
-                                前往 系統設定 → 鍵盤 → 輸入方式，移除「粵拼/Jyutping」。
+                                以下係手動卸載(Uninstall) macOS 粵拼輸入法步驟：
                         </p>
                         <p>
-                                刪除以下檔案（文件）／檔案夾（文件夾）：
+                                首先，前往 系統設定 → 鍵盤 → 輸入方式，移除「粵拼/Jyutping」。
                         </p>
-<pre><code>/Library/Input\ Methods/Jyutping.app
-~/Library/Application\ Scripts/org.jyutping.inputmethod.Jyutping
-~/Library/Caches/org.jyutping.inputmethod.Jyutping
-~/Library/Containers/org.jyutping.inputmethod.Jyutping</code></pre>
                         <p>
-                                最後，登出電腦再登入，或者重啓電腦。
+                                然後，刪除輸入法應用程式本體：
+                                <ul class="double-line-height">
+                                        <li>於 Finder 撳 <kbd>Command ⌘</kbd> + <kbd>Shift ⇧</kbd> + <kbd>G</kbd> 會彈出一個䈎面</li>
+                                        <li>輸入並前往路徑 <code class="line-block">/Library/Input Methods/</code></li>
+                                        <li>搵到 Jyutping.app 將佢刪除。</li>
+                                </ul>
                         </p>
-                        <br>
                         <p>
-                                如果刪除 <code>/Library/Input\ Methods/Jyutping.app</code> 時，彈提示話佢運行緊、無法刪除。可能需要先將佢結束運行：
+                                如果刪除 <code>Jyutping.app</code> 時，彈提示話佢運行緊、無法刪除。需要先將佢結束運行：
                                 <br>
                                 方法一：去 Activity Monior(活動監視器) 搵到「粵拼/Jyutping」，將佢結束運行。
                                 <br>
                                 方法二：去 Terminal(終端) 運行以下命令將佢結束運行：
                                 <pre><code>osascript -e 'tell application id "org.jyutping.inputmethod.Jyutping" to quit'</code></pre>
                         </p>
+                        <br>
+                        <p>
+                                如果你想刪晒粵拼輸入法相關嘅所有記錄、設定等，可以刪除以下檔案／檔案夾：
+                        </p>
+<pre><code>~/Library/Application Scripts/org.jyutping.inputmethod.Jyutping
+~/Library/Caches/org.jyutping.inputmethod.Jyutping
+~/Library/Containers/org.jyutping.inputmethod.Jyutping</code></pre>
+                        <br>
+                        <p>
+                                最後，登出電腦再登入，或者重啓電腦。
+                        </p>
+                        <br>
                 </div>
         </div>
 </body>

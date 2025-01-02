@@ -64,6 +64,9 @@ div.card {
         pre {
                 background: var(--color-light-background);
         }
+        code.line-block {
+                background: var(--color-light-background);
+        }
         kbd {
                 background: var(--color-light-background);
         }
@@ -80,6 +83,9 @@ div.card {
                 background: var(--color-dark-background);
         }
         pre {
+                background: var(--color-dark-background);
+        }
+        code.line-block {
                 background: var(--color-dark-background);
         }
         kbd {
