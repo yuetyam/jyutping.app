@@ -3,13 +3,14 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.52.0</title>
-            <pubDate>Fri, 27 Dec 2024 01:50:00 +0800</pubDate>
-            <sparkle:version>131</sparkle:version>
-            <sparkle:shortVersionString>0.52.0</sparkle:shortVersionString>
+            <title>v0.53.0</title>
+            <pubDate>Thu, 02 Jan 2025 16:30:00 +0800</pubDate>
+            <sparkle:version>132</sparkle:version>
+            <sparkle:shortVersionString>0.53.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">
-此次更新主要係問題修復以及性能提昇。
+• 修復切換輸入法時可能會變窒、觸發系統風火輪嘅問題。
+• 其他問題修復以及性能提昇。
 
 由於 macOS 對輸入法嘅管理情況比較複雜，粵拼輸入法內置嘅「檢查更新／自動更新」有可能會更新失敗。
 
@@ -17,9 +18,9 @@
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
             </description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.52.0/Jyutping-v0.52.0-Mac-IME.pkg"
-                       sparkle:edSignature="kxbnQX1holOK2u9DO03uRxUXO5d4YJU9NzWEvZNCWfdt8F1zZi6HKojr4iBz3eHOTD+YDvsWkOXf+N6eWL/HCQ=="
-                       length="20941730"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.53.0/Jyutping-v0.53.0-Mac-IME.pkg"
+                       sparkle:edSignature="rELRxx7H276hQslcW0n7OTqf2A70lAZoOCNxJCT3yRYt6+VorUsEb8pULJJ0XiwL4sCFRjHn5pshBP4X53q0Cw=="
+                       length="20946295"
                        type="application/octet-stream"/>
         </item>
     </channel>
