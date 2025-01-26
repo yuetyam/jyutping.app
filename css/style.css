@@ -37,6 +37,22 @@ div.card {
         padding-right: 4%;
 }
 
+.shasum-code-block {
+        display: none;
+}
+.shasum-container input[type="checkbox"] {
+        display: none;
+}
+.shasum-container input[type="checkbox"]:checked~.shasum-code-block {
+        display: block;
+}
+.shasum-container label {
+        color: var(--color-blue);
+}
+.shasum-container label:hover {
+        color: var(--color-green);
+}
+
 @media (max-width: 1078px) {
         div.card {
                 width: 68%;
