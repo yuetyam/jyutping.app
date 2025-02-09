@@ -55,16 +55,16 @@
                         </p>
                         <p>
                                 然後，刪除輸入法應用程式本體：
-                                <ul class="double-line-height">
-                                        <li>於 Finder 撳 <kbd>Command ⌘</kbd> + <kbd>Shift ⇧</kbd> + <kbd>G</kbd> 會彈出一個䈎面</li>
-                                        <li>輸入並前往路徑 <code class="line-block">/Library/Input Methods/</code></li>
+                                <ol class="double-line-height">
+                                        <li>開啓 Finder 再撳鍵盤組合鍵 <kbd>Command ⌘</kbd> + <kbd>Shift ⇧</kbd> + <kbd>G</kbd> 會彈出一個䈎面</li>
+                                        <li>輸入路徑 <code class="line-block">/Library/Input Methods/</code> 再撳鍵盤 <kbd>Return ↵</kbd> 鍵前往</li>
                                         <li>搵到 Jyutping.app 將佢刪除。</li>
-                                </ul>
+                                </ol>
                         </p>
                         <p>
                                 如果刪除 Jyutping.app 時，彈提示話佢運行緊、無法刪除。需要先將佢結束運行：
                                 <br>
-                                方法一：去 Activity Monior(活動監視器) 搵到「粵拼/Jyutping」，將佢結束運行。
+                                方法一：去 Activity Monior(活動監視器) 搵到「粵拼／Jyutping」，將佢結束運行。
                                 <br>
                                 方法二：去 Terminal(終端) 運行以下命令將佢結束運行：
                                 <pre><code>osascript -e 'tell application id "org.jyutping.inputmethod.Jyutping" to quit'</code></pre>
