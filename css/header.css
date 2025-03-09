@@ -41,7 +41,7 @@ img.header-logo {
 }
 
 .menu>li {
-        margin: 0 1.2em;
+        margin: 0 1.5em;
         overflow: hidden;
 }
 
@@ -102,6 +102,21 @@ img.header-logo {
         transform: rotate(-405deg);
 }
 
+@media (max-width: 1498px) {
+        .menu>li {
+                margin: 0 1em;
+        }
+}
+@media (max-width: 1398px) {
+        .menu>li {
+                margin: 0 0.8em;
+        }
+}
+@media (max-width: 1278px) {
+        .menu>li {
+                margin: 0 0.5em;
+        }
+}
 @media (max-width: 1082px) {
         .menu-button-container {
                 display: flex;
