@@ -58,8 +58,6 @@
                         <br>
                         鍵盤全程單機離線，毋會訪問網絡。
                         <br>
-                        應用程式以及鍵盤毋會傳送任何資訊返我哋嘅伺服器（服務器），因爲我哋根本冇伺服器。
-                        <br>
                         鍵盤毋會記錄或儲存系統剪貼板內容。
                 </p>
                 <br>
@@ -67,7 +65,7 @@
                 <p class="left-align">
                         應用程式毋會記錄或收集任何個人資訊。
                         <br>
-                        應用程式毋會傳送任何資訊返我哋嘅伺服器（服務器），因爲我哋根本冇伺服器。
+                        應用程式自身嘅功能無需訪問網絡。
                         <br>
                         應用程式使用系統提供嘅標準控件 <a href="https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller"><code>SFSafariViewController</code></a>
                         來開啓網鏈。
@@ -75,7 +73,7 @@
                 <br>
                 <h3>iOS 鍵盤</h3>
                 <p class="left-align">
-                        鍵盤嘅絕大部分功能都毋需開啓「<a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/CustomKeyboard.html#//apple_ref/doc/uid/TP40014214-CH16-SW3">全權取用</a>」。
+                        鍵盤嘅絕大部分功能都無需開啓「<a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/CustomKeyboard.html#//apple_ref/doc/uid/TP40014214-CH16-SW3">全權取用</a>」。
                         <br>
                         無論開啓「全權取用」與否，鍵盤都全程毋會訪問網絡。
                         <br>
@@ -100,14 +98,16 @@
                 <br>
                 <h3>iOS 鍵盤之全權取用</h3>
                 <p class="left-align">
-                        由於 iOS 系統限制，鍵盤振動回應（Haptic Feedback）以及「貼上」需要用戶開啓「全權取用」權限。
+                        由於 iOS 系統限制，鍵盤振動／觸感回應（Haptic Feedback）以及「貼上」需要用戶開啓「全權取用」權限。
                         <br>
                         如果用戶冇開啓「全權取用」，邇兩個功能會無法使用；除此之外，毋會有其它影響。
                 </p>
                 <br>
                 <h3>macOS 輸入法</h3>
                 <p class="left-align">
-                        輸入法全程毋會連接網絡。
+                        輸入法打字全程無需訪問網絡。
+                        <br>
+                        輸入法毋會記錄或儲存系統剪貼板內容。
                 </p>
                 <p class="left-align">
                         爲實現用戶本地詞庫，輸入法會於電腦本地記錄用戶選擇過嘅候選詞。
