@@ -3,18 +3,13 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.55.0</title>
-            <pubDate>Fri, 04 Apr 2025 16:35:00 +0800</pubDate>
-            <sparkle:version>134</sparkle:version>
-            <sparkle:shortVersionString>0.55.0</sparkle:shortVersionString>
+            <title>v0.56.0</title>
+            <pubDate>Sat, 12 Apr 2025 07:00:00 +0800</pubDate>
+            <sparkle:version>136</sparkle:version>
+            <sparkle:shortVersionString>0.56.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">
-• 添加 macOS 15.4 新表情符號（Emoji）。
-• 支持用光標（遊標／Cursor）選擇、確定輸入候選詞。
-• 新增設定項，可選擇用蘇州碼、漢字數字等作爲候選詞編號。
-• 系統右上角輸入法選單顯示簡繁切換等輸入法選項。
-• 修復關閉輸入法設定視窗時輸入法可能會崩潰嘅問題。
-• 修正候選詞行間隔預設值太細嘅問題。
+• 打字中途切換簡繁字符集，候選詞會及時刷新。
 • 其他問題修復以及性能提昇。
 
 由於 macOS 對輸入法嘅管理情況比較複雜，粵拼輸入法內置嘅「檢查更新／自動更新」有可能會更新失敗。
@@ -23,9 +18,9 @@
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
             </description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.55.0/Jyutping-v0.55.0-Mac-IME.pkg"
-                       sparkle:edSignature="ULQhGbuqpp74Z0nixAcfwcpR7AK9JhGnKHAQBFPE1ejMrypYZsxckoyPVEcij7DKmXZcvXAad+mtEl6Sc99ZBQ=="
-                       length="23440262"
+            <enclosure url="https://dl.jyutping.app/proxy/jyutping/releases/download/0.56.0/Jyutping-v0.56.0-Mac-IME.pkg"
+                       sparkle:edSignature="QeYFKrfpmPcUfHSDiGBIQgW+2F7lVP6XxTYTBw95j5QV0jRjuIOlKghirR6D4I+JNbqjvpR9a5QRgT+rwt5lCw=="
+                       length="27874191"
                        type="application/octet-stream"/>
         </item>
     </channel>
