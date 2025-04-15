@@ -8,16 +8,13 @@
             <sparkle:version>136</sparkle:version>
             <sparkle:shortVersionString>0.56.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text">
-• 打字中途切換簡繁字符集，候選詞會及時刷新。
+            <description sparkle:format="plain-text">• 打字中途切換簡繁字符集，候選詞會及時刷新。
 • 其他問題修復以及性能提昇。
 
-由於 macOS 對輸入法嘅管理情況比較複雜，粵拼輸入法內置嘅「檢查更新／自動更新」有可能會更新失敗。
-
-最簡單、穩陣、高效嘅更新方式，係前往官網下載安裝最新版。
-
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
-            </description>
+
+由於 macOS 對輸入法嘅管理比較複雜，粵拼輸入法內置嘅「檢查更新／自動更新」有可能會更新失敗。
+可以前往官網下載安裝最新版: https://jyutping.app</description>
             <enclosure url="https://dl.jyutping.app/proxy/jyutping/releases/download/0.56.0/Jyutping-v0.56.0-Mac-IME.pkg"
                        sparkle:edSignature="QeYFKrfpmPcUfHSDiGBIQgW+2F7lVP6XxTYTBw95j5QV0jRjuIOlKghirR6D4I+JNbqjvpR9a5QRgT+rwt5lCw=="
                        length="27874191"
