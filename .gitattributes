@@ -4,6 +4,7 @@
 *.gif binary
 *.heic binary
 *.heif binary
+*.ico binary
 *.jpeg binary
 *.jpg binary
 *.pdf binary

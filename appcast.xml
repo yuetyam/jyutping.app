@@ -8,7 +8,8 @@
             <sparkle:version>136</sparkle:version>
             <sparkle:shortVersionString>0.56.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text">• 打字中途切換簡繁字符集，候選詞會及時刷新。
+            <description sparkle:format="plain-text">更新要點：
+• 打字中途切換簡繁字符集，候選詞會及時刷新。
 • 其他問題修復以及性能提昇。
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
