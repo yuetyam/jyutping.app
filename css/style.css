@@ -23,6 +23,10 @@ img.screenshot {
         width: 36%;
         border-radius: 8px;
 }
+img.guideline {
+        width: 46%;
+        border-radius: 8px;
+}
 
 div.card {
         text-align: center;
@@ -61,6 +65,9 @@ div.card {
         img.screenshot {
                 width: 60%;
         }
+        img.guideline {
+                width: 66%;
+        }
 }
 @media (max-width: 802px) {
         div.card {
@@ -69,6 +76,9 @@ div.card {
         }
         img.screenshot {
                 width: 75%;
+        }
+        img.guideline {
+                width: 88%;
         }
 }
 
