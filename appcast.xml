@@ -16,7 +16,7 @@
 
 如果粵拼輸入法內置嘅「檢查更新／自動更新」更新失敗，
 可以前往官網下載安裝最新版: https://jyutping.app</description>
-            <enclosure url="https://dl.jyutping.app/proxy/jyutping/releases/download/0.57.0/Jyutping-v0.57.0-Mac-IME.pkg"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.57.0/Jyutping-v0.57.0-Mac-IME.pkg"
                        sparkle:edSignature="Ysiw3xGGf7fFhMaP6zqYFspxHai8Ms29xDHqQbAtqJA767EbnGIbnxA4JdTvL0N2HYE+IS2tY7ggTJo1C6j4AA=="
                        length="27894492"
                        type="application/octet-stream"/>
