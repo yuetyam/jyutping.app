@@ -3,22 +3,23 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.57.0</title>
-            <pubDate>Fri, 18 Apr 2025 17:00:00 +0800</pubDate>
-            <sparkle:version>137</sparkle:version>
-            <sparkle:shortVersionString>0.57.0</sparkle:shortVersionString>
+            <title>v0.58.0</title>
+            <pubDate>Thu, 03 Jul 2025 17:40:00 +0800</pubDate>
+            <sparkle:version>141</sparkle:version>
+            <sparkle:shortVersionString>0.58.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">更新要點：
-• 新增「融合部分習慣拼法」選項。
-• 改進用筆畫輸入反查粵拼使用體驗。
+• 改进输入唔完整音节时嘅处理算法。
+• 稍爲改進候選詞樣式設計。
+• 稍爲改進設定䈎面樣式設計。
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
 
 如果粵拼輸入法內置嘅「檢查更新／自動更新」更新失敗，
 可以前往官網下載安裝最新版: https://jyutping.app</description>
-            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.57.0/Jyutping-v0.57.0-Mac-IME.pkg"
-                       sparkle:edSignature="Ysiw3xGGf7fFhMaP6zqYFspxHai8Ms29xDHqQbAtqJA767EbnGIbnxA4JdTvL0N2HYE+IS2tY7ggTJo1C6j4AA=="
-                       length="27894492"
+            <enclosure url="https://github.com/yuetyam/jyutping/releases/download/0.58.0/Jyutping-v0.58.0-Mac.pkg"
+                       sparkle:edSignature="YrwvIetSthH5uyIq055yfKWkmjEGJ1SjEEVR1392FugUQE71UWCmbfL52ptHV/qR6w8fzDmEwmiC0EL+HAFtDA=="
+                       length="27818890"
                        type="application/octet-stream"/>
         </item>
     </channel>
