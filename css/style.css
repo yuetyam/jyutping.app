@@ -23,6 +23,10 @@ img.screenshot {
         width: 36%;
         border-radius: 8px;
 }
+img.screenshot-banner {
+        width: 100%;
+        border-radius: 8px;
+}
 img.guideline {
         width: 46%;
         border-radius: 8px;
