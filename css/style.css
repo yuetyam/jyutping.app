@@ -16,8 +16,10 @@ a.download {
 img.badge {
         width: 160px;
 }
-img.image {
-        width: 260px;
+img.sponsor-qrcode {
+        width: 240px;
+        border-radius: 12px;
+        border: 1px solid #D0D4D8;
 }
 img.screenshot {
         width: 36%;
@@ -126,5 +128,8 @@ div.card {
         }
         img.qrcode {
                 width: 158px;
+        }
+        img.sponsor-qrcode {
+                border: none;
         }
 }
