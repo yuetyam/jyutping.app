@@ -16,6 +16,10 @@ a.download {
 img.badge {
         width: 160px;
 }
+img.logo-badge {
+        width: 40px;
+        height: 40px;
+}
 img.sponsor-qrcode {
         width: 240px;
         border-radius: 12px;
