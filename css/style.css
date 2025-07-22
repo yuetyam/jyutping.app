@@ -40,7 +40,7 @@ img.guideline {
 
 div.card {
         text-align: center;
-        border-radius: 48px;
+        border-radius: 16px;
         width: 48%;
         margin-left: 22%;
         margin-top: 56px;
@@ -69,7 +69,7 @@ div.card {
 
 @media (max-width: 1078px) {
         div.card {
-                border-radius: 32px;
+                border-radius: 12px;
                 width: 68%;
                 margin-left: 12%;
         }
@@ -82,7 +82,7 @@ div.card {
 }
 @media (max-width: 802px) {
         div.card {
-                border-radius: 16px;
+                border-radius: 8px;
                 width: 90%;
                 margin-left: 1%;
         }
