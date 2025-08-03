@@ -16,6 +16,9 @@ a.download {
 img.badge {
         width: 160px;
 }
+img.qrcode {
+        width: 172px;
+}
 img.logo-badge {
         width: 40px;
         height: 40px;
@@ -26,7 +29,7 @@ img.sponsor-qrcode {
         border: 1px solid #D0D4D8;
 }
 img.screenshot {
-        width: 36%;
+        width: min(340px, max(320px, 36%));
         border-radius: 8px;
 }
 img.screenshot-banner {
@@ -110,9 +113,6 @@ div.card {
         }
         div.card {
                 background: var(--color-card-light-background);
-        }
-        img.qrcode {
-                width: 172px;
         }
 }
 @media(prefers-color-scheme: dark) {
