@@ -23,10 +23,23 @@ img.logo-badge {
         width: 40px;
         height: 40px;
 }
-img.sponsor-qrcode {
+img.sponsor-wechat-pay {
         width: 240px;
         border-radius: 12px;
-        border: 1px solid #D0D4D8;
+        border: 1px solid #03C160;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+}
+img.sponsor-alipay {
+        width: 240px;
+        border-radius: 12px;
+        border: 1px solid #1578FF;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
 }
 img.screenshot {
         width: min(340px, max(320px, 36%));
@@ -135,7 +148,7 @@ div.card {
         img.qrcode {
                 width: 158px;
         }
-        img.sponsor-qrcode {
+        img.sponsor-wechat-pay, img.sponsor-alipay {
                 border: none;
         }
 }
