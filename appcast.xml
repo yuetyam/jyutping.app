@@ -3,21 +3,26 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.63.0</title>
-            <pubDate>Sun, 24 Aug 2025 23:29:00 +0800</pubDate>
-            <sparkle:version>148</sparkle:version>
-            <sparkle:shortVersionString>0.63.0</sparkle:shortVersionString>
+            <title>v0.65.0</title>
+            <pubDate>Sun, 14 Sep 2025 05:30:00 +0800</pubDate>
+            <sparkle:version>149</sparkle:version>
+            <sparkle:shortVersionString>0.65.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">更新要點：
-• 修正「使用系統文字替代」功能可能導致候選詞重複嘅問題。
+• 適配 macOS 26 Tahoe。
+• 改進候選詞排序算法。
+• 改進簡拼輸入算法。
+• 改進輸入記憶算法。
+• 改進音節分隔鍵輸入處理。
+• 改進用普通話拼音、筆畫輸入等反查粵拼使用體驗。
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
 
 如果粵拼輸入法內置嘅「檢查更新／自動更新」更新失敗，
 可以前往官網下載安裝最新版: https://jyutping.app</description>
-            <enclosure url="https://dl.jyutping.app/proxy/jyutping/releases/download/0.63.0/Jyutping-v0.63.0-Mac.pkg"
-                       sparkle:edSignature="7yueWDW0QS922E2YgTfUqswVwjVmBW/QlVBhrAf5cnROxEJQw8Fg6HoNbYdsZBDvYUM0+Rzp9etBE11KuxFBDQ=="
-                       length="27975747"
+            <enclosure url="https://dl.jyutping.app/proxy/jyutping/releases/download/0.65.0/Jyutping-v0.65.0-Mac.pkg"
+                       sparkle:edSignature="j/EcWO9MlOnXF+cwUR+aXf98raHoR7ZtPmHdUWj+z/bPRdzJ0R/dW3Pt0kB9ey7PjFYNwtzqShPPPrqZr1ZYAA=="
+                       length="28179810"
                        type="application/octet-stream"/>
         </item>
     </channel>
