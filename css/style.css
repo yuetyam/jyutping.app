@@ -59,7 +59,7 @@ div.card {
         border-radius: 16px;
         width: 48%;
         margin-left: 22%;
-        margin-top: 56px;
+        margin-top: 60px;
         margin-bottom: 1em;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -90,7 +90,7 @@ div.card {
                 margin-left: 12%;
         }
         img.screenshot {
-                width: 60%;
+                width: 64%;
         }
         img.guideline {
                 width: 66%;
@@ -103,7 +103,7 @@ div.card {
                 margin-left: 1%;
         }
         img.screenshot {
-                width: 80%;
+                width: 84%;
         }
         img.guideline {
                 width: 88%;
