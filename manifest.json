@@ -1,0 +1,19 @@
+{
+  "name": "Jyutping - Cantonese Keyboard",
+  "short_name": "Jyutping.app",
+  "lang": "yue",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "productivity",
+    "utilities"
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "org.jyutping.jyutping",
+      "url": "https://play.google.com/store/apps/details?id=org.jyutping.jyutping"
+    }
+  ]
+}
