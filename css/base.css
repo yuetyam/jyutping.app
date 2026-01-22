@@ -1,7 +1,8 @@
 :root {
         --color-blue: #007FFF;
         --color-green: #34A853;
-        --color-light-background: #D0D4D8;
+        /* --color-light-background: #D0D4D8; */
+        --color-light-background: #E0E0E0;
         --color-dark-background: black;
         --color-card-light-background: white;
         --color-card-dark-background: #1C1C1C;
