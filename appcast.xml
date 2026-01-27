@@ -3,22 +3,22 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.68.0</title>
-            <pubDate>Sat, 03 Jan 2026 14:48:00 +0800</pubDate>
-            <sparkle:version>154</sparkle:version>
-            <sparkle:shortVersionString>0.68.0</sparkle:shortVersionString>
+            <title>v0.69.0</title>
+            <pubDate>Tue, 27 Jan 2026 11:00:00 +0800</pubDate>
+            <sparkle:version>155</sparkle:version>
+            <sparkle:shortVersionString>0.69.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">更新要點：
-• 稍爲修正輸入算法。
-• 其他問題修復以及使用體驗提昇。
+1. 新增狀態切換提示條，切換輸入模式、繁／簡、標點樣式、全寬／半寬時，會短暫顯示新狀態。
+2. 修復喺 Chrome 使用撳一下 Shift 鍵切換輸入狀態選項有時會切換失敗嘅問題。
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
 
 如果粵拼輸入法內置嘅「檢查更新／自動更新」更新失敗，
 可以前往官網下載安裝最新版: https://jyutping.app</description>
-            <enclosure url="https://dl.jyutping.app/proxy/jyutping/releases/download/0.68.0/Jyutping-v0.68.0-Mac.pkg"
-                       sparkle:edSignature="ZKjPpdfvCHqTjc82148oZvNahYFGDg0Lm9ige9fHwWvIvPVvidS9uo4ee/vKP7BbTpnwij8RTDawTdWy4Me1DQ=="
-                       length="25662106"
+            <enclosure url="https://dl.jyutping.app/proxy/jyutping/releases/download/0.69.0/Jyutping-v0.69.0-Mac.pkg"
+                       sparkle:edSignature="mCWdlO9Ckdl8vHk+ltOsBXyYsD/yzZngi7vRbgSZDp9H5D2EJD/tyOoZBn8QSxy6uObZq+w/ywobtHrvUibiCg=="
+                       length="25712590"
                        type="application/octet-stream"/>
         </item>
     </channel>
