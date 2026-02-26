@@ -1,8 +1,7 @@
 :root {
         --color-blue: #007FFF;
         --color-green: #34A853;
-        /* --color-light-background: #D0D4D8; */
-        --color-light-background: #E0E0E0;
+        --color-light-background: #EEEEEE;
         --color-dark-background: black;
         --color-card-light-background: white;
         --color-card-dark-background: #1C1C1C;
@@ -70,6 +69,19 @@ kbd {
 }
 .double-line-height {
         line-height: 2em;
+}
+
+.gap1em {
+        margin-top: 1em;
+}
+.gap2em {
+        margin-top: 2em;
+}
+.gap3em {
+        margin-top: 3em;
+}
+.gap4em {
+        margin-top: 4em;
 }
 
 .green-block {

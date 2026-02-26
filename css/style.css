@@ -6,6 +6,7 @@ a.bookmark:hover {
 }
 a.download {
         font-size: 1.1em;
+        font-weight: 500;
 }
 
 .footnote {
@@ -22,6 +23,10 @@ img.qrcode {
 img.logo-badge {
         width: 40px;
         height: 40px;
+        transition: transform 0.2s ease;
+}
+img.logo-badge:hover {
+        transform: scale(1.08);
 }
 img.sponsor-wechat-pay {
         width: 240px;
@@ -59,12 +64,15 @@ div.card {
         border-radius: 16px;
         width: 48%;
         margin-left: 22%;
-        margin-top: 60px;
+        margin-top: 64px;
         margin-bottom: 1em;
-        padding-top: 1%;
-        padding-bottom: 1%;
+        padding-top: 2em;
+        padding-bottom: 2em;
         padding-left: 4%;
         padding-right: 4%;
+}
+h1 {
+        margin-bottom: 2em;
 }
 
 .shasum-code-block {
@@ -78,9 +86,13 @@ div.card {
 }
 .shasum-container label {
         color: var(--color-blue);
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        cursor: pointer;
 }
 .shasum-container label:hover {
         color: var(--color-green);
+        text-decoration-style: dotted;
 }
 
 @media (max-width: 1078px) {

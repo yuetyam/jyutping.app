@@ -13,10 +13,12 @@ header {
         left: 0;
         width: calc(100% - 2em);
         font-family: var(--font-family-header);
+        z-index: 100;
 }
 
 a.header-logo {
         display: flex;
+        align-items: center;
         text-decoration: none;
         font-size: 1.4em;
         gap: 4px;
@@ -72,8 +74,8 @@ img.header-logo {
 .menu-button::after {
         display: block;
         position: absolute;
-        height: 4px;
-        width: 30px;
+        height: 2px;
+        width: 24px;
         transition: transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
         border-radius: 2px;
 }
@@ -127,7 +129,6 @@ img.header-logo {
         }
 
         #menu-toggle:checked~.menu li {
-                border-bottom: 1px dotted var(--color-light-background);
                 height: 44px;
                 transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1);
         }
@@ -151,8 +152,10 @@ img.header-logo {
 
 @media(prefers-color-scheme: light) {
         header {
-                background: var(--color-card-light-background);
-                border-bottom: 1px solid var(--color-light-background);
+                background: rgba(255, 255, 255, 0.66);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
 
         a.header-logo {
@@ -169,14 +172,19 @@ img.header-logo {
                 background: black;
         }
 
-        .menu>li {
-                background: var(--color-card-light-background);
+        #menu-toggle:checked~.menu li {
+                background: rgba(255, 255, 255, 0.66);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
 }
 @media(prefers-color-scheme: dark) {
         header {
-                background: var(--color-card-dark-background);
-                border-bottom: 1px solid var(--color-dark-background);
+                background: rgba(28, 28, 28, 0.66);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         a.header-logo {
@@ -193,7 +201,10 @@ img.header-logo {
                 background: white;
         }
 
-        .menu>li {
-                background: var(--color-card-dark-background);
+        #menu-toggle:checked~.menu li {
+                background: rgba(28, 28, 28, 0.66);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 }
