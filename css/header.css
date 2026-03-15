@@ -20,7 +20,7 @@ a.header-logo {
         display: flex;
         align-items: center;
         text-decoration: none;
-        font-size: 1.4em;
+        font-size: 1.5em;
         gap: 4px;
 }
 a.header-logo:hover {
@@ -29,8 +29,8 @@ a.header-logo:hover {
 }
 
 img.header-logo {
-        width: 28px;
-        height: 28px;
+        width: 32px;
+        height: 32px;
         border-radius: 6px;
 }
 
