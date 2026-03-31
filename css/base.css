@@ -5,9 +5,22 @@
         --color-dark-background: black;
         --color-card-light-background: white;
         --color-card-dark-background: #1C1C1C;
-        --font-family-base: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Flex, Roboto, Segoe UI, Helvetica Neue, Shanggu Sans, ChiuKong Gothic CL, LXGW XiHei CL, Sarasa Gothic CL, PingFang HK, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, IBM Plex Sans TC, Microsoft JhengHei, ui-sans-serif, sans-serif;
-        --font-family-header: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Flex, Roboto, Segoe UI, Helvetica Neue, LXGW XiHei CL, PingFang HK, LXGW Neo XiHei, IBM Plex Sans TC, Microsoft JhengHei, ui-sans-serif, sans-serif;
+        --font-family-base: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Flex, Roboto, Segoe UI, Helvetica Neue, Shanggu Sans, ChiuKong Gothic CL, LXGW XiHei CL, Sarasa Gothic CL, PingFang HK, IBM Plex Sans TC, Chiron Hei HK, Source Han Sans HC, Noto Sans CJK HK, Microsoft JhengHei, ui-sans-serif, sans-serif;
+        --font-family-header: -apple-system, BlinkMacSystemFont, SF Pro, Inter, Google Sans Flex, Roboto, Segoe UI, Helvetica Neue, LXGW XiHei CL, LXGW Neo XiHei, PingFang HK, IBM Plex Sans TC, Microsoft JhengHei, ui-sans-serif, sans-serif;
         --font-family-mono: Jetbrains Mono, Monaspace Neon, SF Mono, SFMono-Regular, Roboto Mono, ui-monospace, Consolas, Menlo, monospace;
+}
+
+@font-face {
+        font-family: "Jetbrains Mono";
+        font-display: swap;
+        font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
+        src: local("Jetbrains Mono");
+}
+@font-face {
+        font-family: "Monaspace Neon";
+        font-display: swap;
+        font-feature-settings: "calt", "ss01", "ss02", "ss03", "ss04", "ss06", "ss09", "cv01" 2, "cv32", "liga";
+        src: local("Monaspace Neon");
 }
 
 html, body {
@@ -39,7 +52,6 @@ pre {
 }
 code, kbd {
         font-family: var(--font-family-mono);
-        font-feature-settings: "calt", "cv01", "cv08", "cv09", "cv10", "cv11", "cv12", "zero", "liga";
         font-size: 0.9em;
 }
 code.inline-block {
