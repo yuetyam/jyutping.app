@@ -1,0 +1,58 @@
+@import url(base.css);
+
+footer {
+        margin-top: 3em;
+        padding: 1em 1.5em;
+        text-align: center;
+        font-family: var(--font-family-header);
+}
+
+.footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75em 1.5em;
+        margin: 0 auto;
+}
+
+.footer-links a {
+        text-decoration: none;
+}
+.footer-links a:hover {
+        color: var(--color-blue);
+        text-decoration: none;
+}
+
+@media (max-width: 802px) {
+        footer {
+                margin-top: 0em;
+                padding-left: 1em;
+                padding-right: 1em;
+        }
+        .footer-links {
+                gap: 0.5em 1em;
+        }
+}
+
+@media(prefers-color-scheme: light) {
+        footer {
+                background: rgba(255, 255, 255, 0.66);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        .footer-links a {
+                color: black;
+        }
+}
+@media(prefers-color-scheme: dark) {
+        footer {
+                background: rgba(28, 28, 28, 0.66);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .footer-links a {
+                color: white;
+        }
+}
