@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="yue">
+
+<head>
+        <meta charset="UTF-8">
+        <title>使用 F-Droid 安裝、更新 Android 版粵拼輸入法</title>
+        <meta name="description" content="介紹如何下載安裝 F-Droid，以及如何爲 F-Droid 設置清華 TUNA 同步源，從而順暢安裝、更新 Android 版粵拼輸入法。" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="用 F-Droid 安裝、更新粵拼輸入法" />
+        <meta property="og:description" content="介紹如何下載安裝 F-Droid，以及如何爲 F-Droid 設置清華 TUNA 同步源，從而順暢安裝、更新 Android 版粵拼輸入法。" />
+        <meta property="og:url" content="https://jyutping.app/fdroid" />
+        <meta property="og:image" content="https://jyutping.app/images/banner.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:alt" content="Cantonese Jyutping Keyboard" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <meta name="twitter:creator" content="@bingzheung" />
+        <link rel="icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="../"><img class="header-logo" src="../images/icon.png" alt="Logo">粵拼輸入法</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="../android">Android</a></li>
+                        <li><a href="../ios">iOS</a></li>
+                        <li><a href="../mac">macOS</a></li>
+                        <li><a href="../windows">Windows</a></li>
+                        <li><a href="../harmony">HarmonyOS</a></li>
+                        <li><a href="../faq">常問問題</a></li>
+                        <li><a href="../collection">資源彙集</a></li>
+                        <li><a href="../donate">支持作者</a></li>
+                        <li><a href="../about">關於</a></li>
+                </ul>
+        </header>
+        <div class="card more-line-height">
+                <h1>
+                        用 F-Droid 安裝、更新 Android 粵拼輸入法
+                </h1>
+                <div class="left-align even-more-line-height">
+                        <p>
+                                本文主要介紹三個操作：
+                        </p>
+                        <ol>
+                                <li>下載、安裝 F-Droid。</li>
+                                <li>爲 F-Droid 設置清華 TUNA 同步源。</li>
+                                <li>用 F-Droid 下載、更新 Android 粵拼輸入法。</li>
+                        </ol>
+                        <p class="gap2em">
+                                如果你喺中國大陸使用 F-Droid，直接連去官方倉庫有時會比較慢，甚至刷新失敗。
+                                <br>
+                                加入清華 TUNA 同步源之後，下載同更新通常會穩定好多。
+                        </p>
+                        <h2 class="gap2em">
+                                下載、安裝 F-Droid
+                        </h2>
+                        <p>
+                                F-Droid 係 Android 上面一個自由開源應用商店。
+                                <br>
+                                官方網站：<a href="https://f-droid.org/" target="_blank">https://f-droid.org/</a>
+                                <br>
+                                直接下載 APK：<a href="https://f-droid.org/F-Droid.apk" target="_blank">https://f-droid.org/F-Droid.apk</a>
+                        </p>
+                        <p>
+                                下載完成之後，打開 APK 安裝。
+                                <br>
+                                如果系統彈出「不明來源」或者「允許此來源安裝應用程式」之類提示，跟住系統指示開啓安裝權限就可以。
+                        </p>
+                        <h2 class="gap2em">
+                                爲 F-Droid 設置清華 TUNA 同步源
+                        </h2>
+                        <p>
+                                打開 F-Droid 之後，前往：
+                                <br>
+                                <kbd>設定</kbd> → <kbd>軟件庫</kbd> → <kbd>+</kbd>
+                        </p>
+                        <p>
+                                然後將下面呢個倉庫地址貼入去：
+                        </p>
+                        <pre><code>https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB</code></pre>
+                        <p>
+                                如果 F-Droid 要求你確認指紋（fingerprint），核對下面呢組 SHA-256：
+                        </p>
+                        <pre><code>43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB</code></pre>
+                        <p>
+                                加好之後返回軟件庫列表，撳一下同步或者下拉重新整理，等倉庫索引更新完成。
+                        </p>
+                        <h2 class="gap2em">
+                                用 F-Droid 安裝、更新 Android 粵拼輸入法
+                        </h2>
+                        <p>
+                                倉庫同步完成之後，喺 F-Droid 搜尋：
+                                <code class="inline-block">Jyutping</code>、
+                                <code class="inline-block">粵拼輸入法</code>，
+                                或者套件名 <code class="inline-block">org.jyutping.jyutping</code>
+                        </p>
+                        <p>
+                                亦可以直接打開套件頁：
+                                <br>
+                                <a href="https://f-droid.org/packages/org.jyutping.jyutping/" target="_blank">https://f-droid.org/packages/org.jyutping.jyutping/</a>
+                        </p>
+                        <ol>
+                                <li>撳 <kbd>安裝</kbd> 安裝粵拼輸入法。</li>
+                                <li>之後如有新版本，打開 F-Droid 重新整理，再撳 <kbd>更新</kbd> 就可以。</li>
+                                <li>如果套件頁暫時未見到最新版本，通常只係同步源仲未同步完成，等一陣再刷新一次即可。</li>
+                        </ol>
+                </div>
+                <br>
+                <br>
+        </div>
+</body>
+
+</html>
