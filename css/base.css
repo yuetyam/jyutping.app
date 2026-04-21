@@ -25,6 +25,7 @@
 
 html, body {
         font-family: var(--font-family-base);
+        text-autospace: normal;
         text-spacing-trim: trim-start;
         padding: 0;
         margin: 0;
