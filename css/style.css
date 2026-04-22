@@ -50,6 +50,23 @@ img.screenshot {
         width: min(340px, max(320px, 36%));
         border-radius: 8px;
 }
+
+.screenshot-row {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: center;
+        justify-items: center;
+        gap: 2em;
+}
+.screenshot-row picture {
+        display: block;
+        width: min(340px, max(320px, 36%));
+}
+.screenshot-row img {
+        width: 100%;
+        border-radius: 8px;
+}
+
 img.screenshot-banner {
         width: 100%;
         border-radius: 8px;
@@ -95,11 +112,22 @@ h1 {
         text-decoration-style: dotted;
 }
 
+@media (max-width: 1360px) {
+        .screenshot-row {
+                grid-template-columns: 1fr;
+        }
+}
 @media (max-width: 1078px) {
         div.card {
                 border-radius: 12px;
                 width: 68%;
                 margin-left: 12%;
+        }
+        .screenshot-row {
+                grid-template-columns: 1fr;
+        }
+        .screenshot-row picture {
+                width: 64%;
         }
         img.screenshot {
                 width: 64%;
@@ -117,6 +145,12 @@ h1 {
                 padding-bottom: 60px;
                 padding-left: 4%;
                 padding-right: 4%;
+        }
+        .screenshot-row {
+                grid-template-columns: 1fr;
+        }
+        .screenshot-row picture {
+                width: 84%;
         }
         img.screenshot {
                 width: 84%;
