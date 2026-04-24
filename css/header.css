@@ -21,7 +21,7 @@ a.header-logo {
         align-items: center;
         text-decoration: none;
         font-size: 1.5em;
-        gap: 4px;
+        gap: 6px;
 }
 a.header-logo:hover {
         color: var(--color-blue);
