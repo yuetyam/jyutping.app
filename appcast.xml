@@ -3,22 +3,21 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.74.0</title>
-            <pubDate>Wed, 08 Apr 2026 15:55:00 +0800</pubDate>
-            <sparkle:version>162</sparkle:version>
-            <sparkle:shortVersionString>0.74.0</sparkle:shortVersionString>
+            <title>v0.75.0</title>
+            <pubDate>Tue, 28 Apr 2026 10:46:00 +0800</pubDate>
+            <sparkle:version>164</sparkle:version>
+            <sparkle:shortVersionString>0.75.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text">更新要點：
-新增少許英文單詞候選詞；
-輸入法設定䈎可開／關英文候選詞。
+            <description sparkle:format="plain-text">本次更新要點：
+• 降低記憶體／內存（memory）佔用。
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
 
 如果粵拼輸入法內置嘅「檢查更新／自動更新」更新失敗，
 可以前往官網下載安裝最新版: https://jyutping.app</description>
-            <enclosure url="https://dl.jyutping.app/jyutping/0.74.0/Jyutping-v0.74.0-Mac.pkg"
-                       sparkle:edSignature="LEtFjaL6p10iu+bZKaaSrRvzn2YIdK0zceAjvf0fZfnO9E7IJl4PNmLAnaf7zDbQLYViWsCGx16iZIchDZfeCA=="
-                       length="26626519"
+            <enclosure url="https://dl.jyutping.app/jyutping/0.75.0/Jyutping-v0.75.0-Mac.pkg"
+                       sparkle:edSignature="yC9gJS6gUGHFrMh4pF6HTvtz7q47k5hSWTdwNbN3vbUDvtUvXsuzXXrUI5P0pedfZ5NxOQEc39coSa/3CmOgAQ=="
+                       length="26785026"
                        type="application/octet-stream"/>
         </item>
     </channel>
