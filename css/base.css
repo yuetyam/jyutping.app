@@ -1,6 +1,8 @@
 :root {
         --color-blue: #007FFF;
         --color-green: #34A853;
+        --color-purple: #CB30E0;
+        --color-indigo: #6155F5;
         --color-light-background: #DDDDDD;
         --color-dark-background: black;
         --color-card-light-background: white;
@@ -42,7 +44,7 @@ a {
 }
 a:hover {
         text-decoration: underline;
-        color: var(--color-green);
+        color: var(--color-purple);
 }
 
 pre {
