@@ -12,6 +12,10 @@ a.download {
         font-weight: 500;
 }
 
+.highlight {
+        color: var(--color-purple);
+}
+
 .footnote {
         font-size: 0.9em;
         line-height: 1.4em;
