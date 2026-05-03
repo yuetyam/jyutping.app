@@ -15,6 +15,13 @@ a.download {
 .highlight {
         color: var(--color-purple);
 }
+.stack {
+        display: inline-block;
+        border-radius: 4px;
+        border: 1px solid gray;
+        padding: 2px 4px;
+        line-height: 1em;
+}
 
 .footnote {
         font-size: 0.9em;
