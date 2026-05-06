@@ -31,6 +31,10 @@ a.download {
 img.badge {
         width: 160px;
 }
+img.badge-adjusted {
+        width: 160px;
+        padding: 8px;
+}
 img.qrcode {
         width: 172px;
 }
@@ -79,6 +83,15 @@ img.screenshot {
 .screenshot-row img {
         width: 100%;
         border-radius: 8px;
+}
+
+.download-row {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        align-items: start;
+        justify-content: center;
+        justify-items: center;
+        gap: 16px;
 }
 
 img.screenshot-banner {
@@ -171,6 +184,11 @@ h1 {
         }
         img.guideline {
                 width: 88%;
+        }
+}
+@media (max-width: 380px) {
+        .download-row {
+                grid-template-columns: 1fr;
         }
 }
 
