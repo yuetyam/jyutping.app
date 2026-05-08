@@ -36,7 +36,8 @@ img.badge-adjusted {
         padding: 8px;
 }
 img.qrcode {
-        width: 172px;
+        width: 168px;
+        border-radius: 4px;
 }
 img.logo-badge {
         width: 40px;
@@ -202,6 +203,11 @@ h1 {
         }
         pre, code.inline-block, kbd {
                 background: var(--color-light-background);
+        }
+}
+@media (max-width: 802px) and (prefers-color-scheme: light) {
+        html, body {
+                background: var(--color-card-light-background);
         }
 }
 @media(prefers-color-scheme: dark) {
