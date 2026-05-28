@@ -15,10 +15,11 @@
 
 如果粵拼輸入法內置嘅「檢查更新／自動更新」更新失敗，
 可以前往官網下載安裝最新版: https://jyutping.app</description>
-            <enclosure url="https://dl.jyutping.app/jyutping/0.77.0/Jyutping-v0.77.0-Mac.pkg"
-                       sparkle:edSignature="BbUYuUAppdAyXcm5YDnhXtcGagf7z+B9C/GWEtcyla3C0WrmS379JFuZyQpYQctNXyIRwr6hyir+JYLCO19MDw=="
-                       length="26779057"
-                       type="application/octet-stream"/>
+            <enclosure
+                url="https://dl.jyutping.app/jyutping/0.77.0/Jyutping-v0.77.0-Mac.pkg"
+                sparkle:edSignature="BbUYuUAppdAyXcm5YDnhXtcGagf7z+B9C/GWEtcyla3C0WrmS379JFuZyQpYQctNXyIRwr6hyir+JYLCO19MDw=="
+                length="26779057"
+                type="application/octet-stream" />
         </item>
     </channel>
 </rss>
