@@ -71,11 +71,23 @@ img.header-logo {
         position: relative;
 }
 
+.language-menu details::before {
+        content: "\1F310\FE0E";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        line-height: 1;
+        color: inherit;
+        transform: translateY(-50%);
+        pointer-events: none;
+}
+
 .language-menu summary {
         display: flex;
         align-items: center;
         gap: 0.35em;
-        color: var(--color-blue);
+        padding-left: 1.5em;
+        color: inherit;
         cursor: pointer;
         list-style: none;
 }
@@ -239,6 +251,17 @@ img.header-logo {
         .language-menu summary {
                 box-sizing: border-box;
                 min-height: 44px;
+                padding-left: 3.5em;
+        }
+
+        .language-menu details::before {
+                position: absolute;
+                top: 0;
+                left: 2em;
+                height: 44px;
+                display: flex;
+                align-items: center;
+                transform: none;
         }
 
         .language-menu ul {
