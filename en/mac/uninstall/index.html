@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>How to uninstall Jyutping Input Method for macOS</title>
+        <meta name="description" content="How to uninstall Jyutping Input Method for macOS." />
+        <link rel="canonical" href="https://jyutping.app/en/mac/uninstall/" />
+        <link rel="alternate" hreflang="yue" href="https://jyutping.app/mac/uninstall/" />
+        <link rel="alternate" hreflang="en" href="https://jyutping.app/en/mac/uninstall/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="How to uninstall Jyutping Input Method for macOS" />
+        <meta property="og:description" content="How to uninstall Jyutping Input Method for macOS." />
+        <meta property="og:url" content="https://jyutping.app/en/mac/uninstall/" />
+        <meta property="og:image" content="https://jyutping.app/images/icon.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <meta name="twitter:creator" content="@bingzheung" />
+        <link rel="icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="https://jyutping.app/images/logo.png" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="../../../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="../../"><img class="header-logo" src="../../../images/logo.png" alt="Logo">Jyutping Keyboard</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="../../android">Android</a></li>
+                        <li><a href="../../ios">iOS</a></li>
+                        <li><a href="../../mac">macOS</a></li>
+                        <li><a href="../../windows">Windows</a></li>
+                        <li><a href="../../harmony">HarmonyOS</a></li>
+                        <li><a href="../../faq">FAQ</a></li>
+                        <li><a href="../../collection">Resources</a></li>
+                        <li><a href="../../donate">Donate</a></li>
+                        <li><a href="../../about">About</a></li>
+                        <li><a class="language-link" href="../../../mac/uninstall/">粵文</a></li>
+                </ul>
+        </header>
+        <div class="card more-line-height">
+                <h1>
+                        How to uninstall Jyutping Input Method for macOS
+                </h1>
+                <div class="left-align">
+                        <p>
+                                If you installed the input method with Homebrew, see: <a href="../homebrew">Install Jyutping Input Method for macOS with Homebrew</a>
+                        </p>
+                        <p>
+                                To uninstall or remove Jyutping Input Method for macOS manually:
+                        </p>
+                        <p>
+                                First, go to System Settings → <span class="stack">Keyboard</span> → <span class="stack">Text Input</span> → <span class="stack">Input Sources</span>, then remove <span class="stack">Jyutping</span>.
+                        </p>
+                        <p>
+                                Then delete the input method application:
+                                <ol class="double-line-height">
+                                        <li>Open Finder and press <kbd>Command ⌘</kbd> + <kbd>Shift ⇧</kbd> + <kbd>G</kbd> to open the “Go to Folder” panel.</li>
+                                        <li>Enter <code class="inline-block">/Library/Input Methods/</code> and press <kbd>Return ↵</kbd>.</li>
+                                        <li>Find <span class="stack">Jyutping.app</span> and delete it.</li>
+                                </ol>
+                        </p>
+                        <p>
+                                If macOS says <span class="stack">Jyutping.app</span> is running and cannot be deleted, quit it first:
+                                <br>
+                                Option 1: open Activity Monitor, find “粵拼 / Jyutping”, and quit it.
+                                <br>
+                                Option 2: open Terminal and run this command:
+                                <pre><code>osascript -e 'tell application id "org.jyutping.inputmethod.Jyutping" to quit'</code></pre>
+                        </p>
+                        <br>
+                        <p>
+                                To delete all records, settings, and related data for Jyutping Input Method, delete these folders:
+                        </p>
+<pre><code>~/Library/Application Scripts/org.jyutping.inputmethod.Jyutping
+~/Library/Caches/org.jyutping.inputmethod.Jyutping
+~/Library/Containers/org.jyutping.inputmethod.Jyutping</code></pre>
+                        <br>
+                        <p>
+                                Finally, log out and log back in, or restart your computer.
+                        </p>
+                        <br>
+                </div>
+        </div>
+</body>
+
+</html>

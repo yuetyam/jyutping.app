@@ -54,6 +54,9 @@ img.header-logo {
         color: var(--color-blue);
         text-decoration: none;
 }
+.menu>li>a.language-link {
+        color: var(--color-blue);
+}
 
 .menu-button-container {
         display: none;
@@ -104,7 +107,7 @@ img.header-logo {
         transform: rotate(-405deg);
 }
 
-@media (max-width: 1082px) {
+@media (max-width: 1280px) {
         .menu-button-container {
                 display: flex;
         }

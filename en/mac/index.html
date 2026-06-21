@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Jyutping Input Method for macOS - Cantonese Input Method</title>
+        <meta name="description" content="A Cantonese Jyutping input method for macOS. Introduction, download, installation, and usage." />
+        <link rel="canonical" href="https://jyutping.app/en/mac/" />
+        <link rel="alternate" hreflang="yue" href="https://jyutping.app/mac/" />
+        <link rel="alternate" hreflang="en" href="https://jyutping.app/en/mac/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Jyutping Input Method for macOS" />
+        <meta property="og:description" content="A Cantonese Jyutping input method for macOS. Introduction, download, installation, and usage." />
+        <meta property="og:url" content="https://jyutping.app/en/mac/" />
+        <meta property="og:image" content="https://jyutping.app/images/banner.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <meta name="twitter:creator" content="@bingzheung" />
+        <link rel="icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="https://jyutping.app/images/logo.png" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="../../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="../"><img class="header-logo" src="../../images/logo.png" alt="Logo">Jyutping Keyboard</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="../android">Android</a></li>
+                        <li><a href="../ios">iOS</a></li>
+                        <li><a href="./">macOS</a></li>
+                        <li><a href="../windows">Windows</a></li>
+                        <li><a href="../harmony">HarmonyOS</a></li>
+                        <li><a href="../faq">FAQ</a></li>
+                        <li><a href="../collection">Resources</a></li>
+                        <li><a href="../donate">Donate</a></li>
+                        <li><a href="../about">About</a></li>
+                        <li><a class="language-link" href="../../mac/">粵文</a></li>
+                </ul>
+        </header>
+        <div class="card more-line-height">
+                <h1>
+                        Jyutping Input Method for macOS
+                </h1>
+                <p>
+                        <picture>
+                                <source srcset="../../images/screenshot-mac-dark.png" media="(prefers-color-scheme: dark)">
+                                <img class="screenshot" src="../../images/screenshot-mac.png" alt="Screenshot of Jyutping input method on macOS">
+                        </picture>
+                </p>
+                <div class="left-align gap4em">
+                        <p>
+                                Using Homebrew? You can <a href="homebrew">install Jyutping Input Method for macOS with Homebrew</a>.
+                        </p>
+                        <br id="download">
+                        <a class="bookmark" href="#download">
+                                <h2>Download</h2>
+                        </a>
+                        <p class="double-line-height">
+                                Download: <a class="download" href="https://dl.jyutping.app/jyutping/0.77.0/Jyutping-v0.77.0-Mac.pkg" download> Jyutping-v0.77.0-Mac.pkg</a>
+                                <br>
+                                Compatibility: macOS 13 Ventura or later
+                                <br>
+                                CPU support: Apple Silicon and Intel x86_64
+                        </p>
+                        <div class="shasum-container even-more-line-height">
+                                Size: <code>26779057</code> bytes
+                                <br>
+                                <input type="checkbox" id="shasum-toggle">
+                                <label for="shasum-toggle">SHA-256</label>
+                                <pre class="shasum-code-block"><code>5a2dcb0214ccbe0679cb8ff6323c61b0783f58ae774fe91d342da5e69e4765bd</code></pre>
+                        </div>
+                        <br id="install">
+                        <a class="bookmark" href="#install">
+                                <h2>Install</h2>
+                        </a>
+                        <p>
+                                Installation steps:
+                                <ol class="even-more-line-height">
+                                        <li>Double-click the downloaded pkg file to start installation.</li>
+                                        <li>macOS may ask for your computer password to authorize installation.</li>
+                                        <li>System Settings may open and ask to add the <span class="stack">Jyutping</span> input method.</li>
+                                        <li>At the last step, the installer asks you to log out so the input method can take effect.</li>
+                                </ol>
+                                <strong>Note</strong>: logging out closes all running apps.
+                        </p>
+                        <p>
+                                After installation <strong>and after logging out and back in</strong>, if Jyutping is not available, try adding it manually:
+                                <ol class="even-more-line-height">
+                                        <li>Go to System Settings → <span class="stack">Keyboard</span> → <span class="stack">Text Input</span> → <span class="stack">Input Sources</span>, then click <span class="stack">Edit</span> on the right.</li>
+                                        <li>In the input source list, click the <span class="stack highlight">+</span> button at the lower left to open the language list.</li>
+                                        <li>Search for “粵拼 / 粤拼 / Jyutping” at the lower left, or browse for <span class="stack">Cantonese</span>.</li>
+                                        <li>Use <span class="stack">Cantonese</span>, not <span class="stack">Cantonese, Traditional</span>.</li>
+                                        <li>Select <span class="stack">粵拼 / Jyutping</span>, then click <span class="stack">Add</span> at the lower right.</li>
+                                </ol>
+                        </p>
+                        <p>
+                                <img class="guideline" src="../../images/mac-add-jyutping-p1.png" alt="macOS Screenshot">
+                                <img class="guideline" src="../../images/mac-add-jyutping-p2.png" alt="macOS Screenshot">
+                                <br>
+                                <img class="guideline" src="../../images/mac-add-jyutping-p3.png" alt="macOS Screenshot">
+                                <img class="guideline" src="../../images/mac-add-jyutping-p4.png" alt="macOS Screenshot">
+                        </p>
+                        <br id="update">
+                        <a class="bookmark" href="#update">
+                                <h2>Update</h2>
+                        </a>
+                        <p>
+                                Because macOS manages input methods in a fairly complex way, the built-in “Check for Updates / Automatic Updates” feature may fail.
+                                <br>
+                                We recommend downloading and installing the latest version from this website, or <a href="homebrew">installing/updating Jyutping Input Method for macOS with Homebrew</a>.
+                        </p>
+                        <br id="faq">
+                        <a class="bookmark" href="#faq">
+                                <h2>FAQ</h2>
+                        </a>
+                        <p>
+                                See also: <a href="../faq">FAQ</a>
+                        </p>
+                        <br id="hans">
+                        <a class="bookmark" href="#hans">
+                                <h2>How do I type simplified Chinese?</h2>
+                        </a>
+                        <p>
+                                While using the input method, press <kbd>Control ⌃</kbd> + <kbd>Shift ⇧</kbd> + <kbd>`</kbd> (below the esc key). An options panel will appear where you can choose simplified Chinese, punctuation style, and other options.
+                        </p>
+                        <br id="uninstall">
+                        <a class="bookmark" href="#uninstall">
+                                <h2>How do I uninstall it?</h2>
+                        </a>
+                        <p>
+                                See also: <a href="uninstall">How to uninstall Jyutping Input Method for macOS</a>
+                        </p>
+                </div>
+                <br>
+                <br>
+                <p>
+                        To support development, <a href="../donate">donations are welcome</a>.
+                </p>
+                <br>
+        </div>
+</body>
+
+</html>

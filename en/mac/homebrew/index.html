@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Install Jyutping Input Method for macOS with Homebrew</title>
+        <meta name="description" content="Download and install Jyutping Input Method for macOS with Homebrew." />
+        <link rel="canonical" href="https://jyutping.app/en/mac/homebrew/" />
+        <link rel="alternate" hreflang="yue" href="https://jyutping.app/mac/homebrew/" />
+        <link rel="alternate" hreflang="en" href="https://jyutping.app/en/mac/homebrew/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Install Jyutping Input Method for macOS with Homebrew" />
+        <meta property="og:description" content="Download and install Jyutping Input Method for macOS with Homebrew." />
+        <meta property="og:url" content="https://jyutping.app/en/mac/homebrew/" />
+        <meta property="og:image" content="https://jyutping.app/images/icon.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <meta name="twitter:creator" content="@bingzheung" />
+        <link rel="icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="https://jyutping.app/images/logo.png" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="../../../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="../../"><img class="header-logo" src="../../../images/logo.png" alt="Logo">Jyutping Keyboard</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="../../android">Android</a></li>
+                        <li><a href="../../ios">iOS</a></li>
+                        <li><a href="../../mac">macOS</a></li>
+                        <li><a href="../../windows">Windows</a></li>
+                        <li><a href="../../harmony">HarmonyOS</a></li>
+                        <li><a href="../../faq">FAQ</a></li>
+                        <li><a href="../../collection">Resources</a></li>
+                        <li><a href="../../donate">Donate</a></li>
+                        <li><a href="../../about">About</a></li>
+                        <li><a class="language-link" href="../../../mac/homebrew/">粵文</a></li>
+                </ul>
+        </header>
+        <div class="card more-line-height">
+                <h1>
+                        Install Jyutping Input Method for macOS with Homebrew
+                </h1>
+                <div class="left-align">
+                        <br id="install">
+                        <a class="bookmark" href="#install">
+                                <h2>Install</h2>
+                        </a>
+                        <pre><code>brew install --cask jyutping</code></pre>
+                        <span class="footnote">Compatibility: macOS 13 Ventura or later</span>
+                        <p>
+                                After installation, log out and log back in, or restart your computer, so the input method can take effect.
+                                <br>
+                                <strong>Note</strong>: logging out closes all running apps.
+                        </p>
+                        <p>
+                                After installation <strong>and after logging out and back in</strong>, if Jyutping is not available, try adding it manually:
+                                <ol class="even-more-line-height">
+                                        <li>Go to System Settings → <span class="stack">Keyboard</span> → <span class="stack">Text Input</span> → <span class="stack">Input Sources</span>, then click <span class="stack">Edit</span> on the right.</li>
+                                        <li>In the input source list, click the <span class="stack highlight">+</span> button at the lower left to open the language list.</li>
+                                        <li>Search for “粵拼 / 粤拼 / Jyutping” at the lower left, or browse for <span class="stack">Cantonese</span>.</li>
+                                        <li>Use <span class="stack">Cantonese</span>, not <span class="stack">Cantonese, Traditional</span>.</li>
+                                        <li>Select <span class="stack">粵拼 / Jyutping</span>, then click <span class="stack">Add</span> at the lower right.</li>
+                                </ol>
+                        </p>
+                        <p>
+                                <img class="guideline" src="../../../images/mac-add-jyutping-p1.png" alt="macOS Screenshot">
+                                <img class="guideline" src="../../../images/mac-add-jyutping-p2.png" alt="macOS Screenshot">
+                                <br>
+                                <img class="guideline" src="../../../images/mac-add-jyutping-p3.png" alt="macOS Screenshot">
+                                <img class="guideline" src="../../../images/mac-add-jyutping-p4.png" alt="macOS Screenshot">
+                        </p>
+                        <br id="update">
+                        <a class="bookmark" href="#update">
+                                <h2>Update</h2>
+                        </a>
+                        <p>
+                                <pre><code>brew upgrade --cask jyutping</code></pre>
+                        </p>
+                        <p>
+                                After updating, it is also best to log out and log back in, or restart your computer, so the input method can take effect.
+                                <br>
+                                <strong>Note</strong>: logging out closes all running apps.
+                        </p>
+                        <br id="uninstall">
+                        <a class="bookmark" href="#uninstall">
+                                <h2>Uninstall</h2>
+                        </a>
+                        <p>
+                                To uninstall the input method, use one of the following two commands.
+                        </p>
+                        <p>
+                                1. Uninstall the input method and <span class="highlight">delete</span> related data:
+                        </p>
+                        <p>
+                                <pre><code>brew uninstall --zap --cask jyutping</code></pre>
+                        </p>
+                        <p>
+                                2. Uninstall the input method and <span class="highlight">keep</span> related data:
+                        </p>
+                        <p>
+                                <pre><code>brew uninstall --cask jyutping</code></pre>
+                        </p>
+                        <p>
+                                After uninstalling, also log out and log back in, or restart your computer.
+                                <br>
+                                <strong>Note</strong>: logging out closes all running apps.
+                        </p>
+                        <br>
+                </div>
+        </div>
+</body>
+
+</html>
