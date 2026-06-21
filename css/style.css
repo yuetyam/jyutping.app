@@ -107,8 +107,8 @@ img.guideline {
 div.card {
         text-align: center;
         border-radius: 16px;
-        width: 48%;
-        margin-left: 22%;
+        width: 52%;
+        margin-left: 20%;
         margin-top: 64px;
         margin-bottom: 1em;
         padding-top: 2em;
@@ -148,8 +148,8 @@ h1 {
 @media (max-width: 1078px) {
         div.card {
                 border-radius: 12px;
-                width: 68%;
-                margin-left: 12%;
+                width: 72%;
+                margin-left: 10%;
         }
         .screenshot-row {
                 grid-template-columns: 1fr;
