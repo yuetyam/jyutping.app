@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cmn-Hant">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Android 文字轉語音朗讀 - 粵拼輸入法</title>
+        <meta name="description" content="Android 版粵拼輸入法使用 Google TTS 語音引擎朗讀文字以及粵拼音節" />
+        <link rel="canonical" href="https://jyutping.app/cmn-Hant/android/tts/" />
+        <link rel="alternate" hreflang="yue" href="https://jyutping.app/android/tts/" />
+        <link rel="alternate" hreflang="en" href="https://jyutping.app/en/android/tts/" />
+        <link rel="alternate" hreflang="cmn-Hant" href="https://jyutping.app/cmn-Hant/android/tts/" />
+        <link rel="alternate" hreflang="cmn-Hans" href="https://jyutping.app/cmn-Hans/android/tts/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Android 粵拼輸入法文字轉語音朗讀" />
+        <meta property="og:description" content="Android 版粵拼輸入法使用 Google TTS 語音引擎朗讀文字以及粵拼音節" />
+        <meta property="og:url" content="https://jyutping.app/cmn-Hant/android/tts/" />
+        <meta property="og:image" content="https://jyutping.app/images/banner.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:alt" content="Cantonese Jyutping Keyboard" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <meta name="twitter:creator" content="@bingzheung" />
+        <link rel="icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="https://jyutping.app/images/logo.png" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="../../../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="../../"><img class="header-logo" src="../../../images/logo.png" alt="Logo">粵拼輸入法</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="../">Android</a></li>
+                        <li><a href="../../ios">iOS</a></li>
+                        <li><a href="../../mac">macOS</a></li>
+                        <li><a href="../../windows">Windows</a></li>
+                        <li><a href="../../harmony">HarmonyOS</a></li>
+                        <li><a href="../../faq">常見問題</a></li>
+                        <li><a href="../../collection">資源彙整</a></li>
+                        <li><a href="../../donate">支持作者</a></li>
+                        <li><a href="../../about">關於</a></li>
+                        <li class="language-menu">
+                                <details>
+                                        <summary>普通話・繁</summary>
+                                        <ul>
+                                                <li><a href="../../../android/tts/">粵語</a></li>
+                                                <li><a href="../../../en/android/tts/">English</a></li>
+                                                <li><a href="../../../cmn-Hans/android/tts/">普通话・简</a></li>
+                                        </ul>
+                                </details>
+                        </li>
+                </ul>
+        </header>
+        <div class="card more-line-height">
+                <h1>
+                        Android 文字轉語音朗讀
+                </h1>
+                <div class="left-align">
+                        <p class="even-more-line-height">
+                                Android 版粵拼 App 使用系統提供的語音引擎來朗讀文字以及音節。
+                                <br>
+                                大部分中國大陸手機系統均未內建粵語語音引擎，以致文字轉語音功能基本上不可用。
+                        </p>
+                        <p class="even-more-line-height">
+                                使用者可以自行安裝 Google 語音引擎解決。
+                                <br>
+                                設定語音引擎、下載語音包的過程中，可能需要使用網路代理。
+                        </p>
+                        <h3 class="gap3em">
+                                Google TTS 語音引擎
+                        </h3>
+                        <p>
+                                前往 Google Play 下載安裝:
+                                <br>
+                                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.tts">https://play.google.com/store/apps/details?id=com.google.android.tts</a>
+                        </p>
+                        <p class="gap2em">
+                                或者下載 APK 側載安裝:
+                                <br>
+                                <a href="https://dl.jyutping.app/jyutping.app/v0.1.0/Speech-Recognition-and-Synthesis_20250804.02_p3.800153222_arm64-v8a.apk" download>Speech-Recognition-and-Synthesis_20250804.02_p3.800153222_arm64-v8a.apk</a>
+                        </p>
+                        <div class="shasum-container">
+                                體積(Size): <code>73725829</code> 字節(Bytes)
+                                <br>
+                                <input type="checkbox" id="shasum-toggle">
+                                <label for="shasum-toggle">散列值(SHA-256)</label>
+                                <pre class="shasum-code-block"><code>063e965555598423835eb77c08f3aa07117cd1c55ecbb15d389cf5e9506d2d41</code></pre>
+                        </div>
+                        <p class="gap2em">
+                                如果使用上面的 APK 安裝失敗，可以嘗試到 vivo 網頁下載： <a target="_blank" href="https://h5.appstore.vivo.com.cn">https://h5.appstore.vivo.com.cn</a>
+                        </p>
+                        <p>
+                                <img class="screenshot" src="../../../images/android-google-tts-download-alt.png" alt="Google TTS app on vivo website">
+                        </p>
+                        <h3 class="gap3em">
+                                手機系統設定語音引擎
+                        </h3>
+                        <p class="gap2em even-more-line-height">
+                                參考下圖，前往系統設定 App 設定語音引擎。
+                                <br>
+                                由於各個系統設定介面、路徑各不相和，需要使用者自行摸索找到設定頁面。
+                        </p>
+                        <p class="gap2em">
+                                首選引擎選擇 Google 語音，然後下載粵語語音包。（可能需要使用網路代理）
+                        </p>
+                        <p class="gap2em">
+                                <img class="screenshot" src="../../../images/android-google-tts-p1.png" alt="Android Google TTS">
+                                <img class="screenshot" src="../../../images/android-google-tts-p2.png" alt="Android Google TTS">
+                                <img class="screenshot" src="../../../images/android-google-tts-p3.png" alt="Android Google TTS">
+                                <img class="screenshot" src="../../../images/android-google-tts-p4.png" alt="Android Google TTS">
+                        </p>
+                        <p class="gap2em even-more-line-height">
+                                如果按「播放」測試沒有聲音，可能需要重新啟動手機。
+                                <br>
+                                設定好語音引擎之後，可能需要將粵拼 App 徹底關閉一次，才可以正常使用讀音功能。
+                        </p>
+                        <p class="gap3em">
+                                過程可能會遇到各種複雜情況，如果試過之後依然無法使用，建議直接放棄，不必浪費太多時間。
+                        </p>
+                        <p>
+                                可以加入 <a target="_blank" href="https://jq.qq.com/?k=4PR17m3t">粵拼輸入法 QQ 交流群</a> ( <code>293148593</code> ) 討論
+                        </p>
+                </div>
+                <br>
+                <br>
+        </div>
+</body>
+
+</html>

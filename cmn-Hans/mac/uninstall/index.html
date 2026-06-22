@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="cmn-Hans">
+
+<head>
+        <meta charset="UTF-8">
+        <title>如何卸载 macOS 粤拼输入法</title>
+        <meta name="description" content="如何卸载 macOS 粤拼输入法。How to uninstall Jyutping Input Method for macOS." />
+        <link rel="canonical" href="https://jyutping.app/cmn-Hans/mac/uninstall/" />
+        <link rel="alternate" hreflang="yue" href="https://jyutping.app/mac/uninstall/" />
+        <link rel="alternate" hreflang="en" href="https://jyutping.app/en/mac/uninstall/" />
+        <link rel="alternate" hreflang="cmn-Hant" href="https://jyutping.app/cmn-Hant/mac/uninstall/" />
+        <link rel="alternate" hreflang="cmn-Hans" href="https://jyutping.app/cmn-Hans/mac/uninstall/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="如何卸载 macOS 粤拼输入法" />
+        <meta property="og:description" content="如何卸载 macOS 粤拼输入法。How to uninstall Jyutping Input Method for macOS." />
+        <meta property="og:url" content="https://jyutping.app/cmn-Hans/mac/uninstall/" />
+        <meta property="og:image" content="https://jyutping.app/images/icon.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <meta name="twitter:creator" content="@bingzheung" />
+        <link rel="icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="https://jyutping.app/images/logo.png" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="../../../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="../../"><img class="header-logo" src="../../../images/logo.png" alt="Logo">粤拼输入法</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="../../android">Android</a></li>
+                        <li><a href="../../ios">iOS</a></li>
+                        <li><a href="../../mac">macOS</a></li>
+                        <li><a href="../../windows">Windows</a></li>
+                        <li><a href="../../harmony">HarmonyOS</a></li>
+                        <li><a href="../../faq">常见问题</a></li>
+                        <li><a href="../../collection">资源汇总</a></li>
+                        <li><a href="../../donate">支持作者</a></li>
+                        <li><a href="../../about">关于</a></li>
+                        <li class="language-menu">
+                                <details>
+                                        <summary>普通话・简</summary>
+                                        <ul>
+                                                <li><a href="../../../mac/uninstall/">粵語</a></li>
+                                                <li><a href="../../../en/mac/uninstall/">English</a></li>
+                                                <li><a href="../../../cmn-Hant/mac/uninstall/">普通話・繁</a></li>
+                                        </ul>
+                                </details>
+                        </li>
+                </ul>
+        </header>
+        <div class="card more-line-height">
+                <h1>
+                        如何卸载 macOS 粤拼输入法
+                </h1>
+                <div class="left-align">
+                        <p>
+                                如果你的输入法是用 Homebrew 安装的，卸载请参考: <a href="../homebrew">Homebrew 安装 macOS 粤拼输入法</a>
+                        </p>
+                        <p>
+                                以下是手动卸载（Uninstall / 移除）macOS 粤拼输入法的步驟：
+                        </p>
+                        <p>
+                                首先，前往 系统设置 App → <span class="stack">键盘</span> → <span class="stack">文字输入</span> → <span class="stack">输入方式</span>，移除 <span class="stack">粤拼</span>。
+                        </p>
+                        <p>
+                                然后，删除输入法应用程序本体：
+                                <ol class="double-line-height">
+                                        <li>开启 Finder 再按键盘組合键 <kbd>Command ⌘</kbd> + <kbd>Shift ⇧</kbd> + <kbd>G</kbd> 会弹出一个页面</li>
+                                        <li>输入路径 <code class="inline-block">/Library/Input Methods/</code> 再按键盘 <kbd>Return ↵</kbd> 键前往</li>
+                                        <li>找到 <span class="stack">Jyutping.app</span> 并将它删除。</li>
+                                </ol>
+                        </p>
+                        <p>
+                                如果删除 <span class="stack">Jyutping.app</span> 时，系统提示它正在执行、无法删除，需要先结束它的执行：
+                                <br>
+                                方法一：到 Activity Monitor（活动監视器）找到「粤拼／Jyutping」，结束它的执行。
+                                <br>
+                                方法二：到 Terminal（终端）执行以下命令结束它的执行：
+                                <pre><code>osascript -e 'tell application id "org.jyutping.inputmethod.Jyutping" to quit'</code></pre>
+                        </p>
+                        <br>
+                        <p>
+                                如果你想删除粤拼输入法相关的所有记录、设置等，可以删除以下资料：
+                        </p>
+<pre><code>~/Library/Application Scripts/org.jyutping.inputmethod.Jyutping
+~/Library/Caches/org.jyutping.inputmethod.Jyutping
+~/Library/Containers/org.jyutping.inputmethod.Jyutping</code></pre>
+                        <br>
+                        <p>
+                                最后，登出电脑再登入，或者重启电脑。
+                        </p>
+                        <br>
+                </div>
+        </div>
+</body>
+
+</html>

@@ -2,142 +2,282 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://jyutping.app/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://jyutping.app/android/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/ios/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/mac/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/windows/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/harmony/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/faq/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/collection/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/donate/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/about/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/android/tts/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/mac/homebrew/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/mac/uninstall/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/privacy/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.95</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/android/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/ios/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/mac/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/windows/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/harmony/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/faq/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/collection/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/donate/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/about/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/android/tts/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/mac/homebrew/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/mac/uninstall/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/en/privacy/</loc>
-  <lastmod>2026-06-22</lastmod>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/android/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/ios/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/mac/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/windows/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/harmony/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/faq/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/collection/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/donate/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/about/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/android/tts/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/mac/homebrew/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/mac/uninstall/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hant/privacy/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/android/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/ios/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/mac/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/windows/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/harmony/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/faq/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/collection/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/donate/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/about/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/android/tts/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/mac/homebrew/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/mac/uninstall/</loc>
+  <lastmod>2026-06-23</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://jyutping.app/cmn-Hans/privacy/</loc>
+  <lastmod>2026-06-23</lastmod>
   <priority>0.50</priority>
 </url>
 </urlset>

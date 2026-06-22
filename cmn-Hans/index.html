@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="cmn-Hans">
+
+<head>
+        <meta charset="UTF-8">
+        <title>粤拼输入法 - 粤语输入法、广东话输入法、Cantonese Keyboard</title>
+        <meta name="description" content="粤语拼音输入法，广东话输入法键盘。 Cantonese Jyutping Keyboard for Android, iOS, macOS, Windows, and more." />
+        <link rel="canonical" href="https://jyutping.app/cmn-Hans/" />
+        <link rel="alternate" hreflang="yue" href="https://jyutping.app/" />
+        <link rel="alternate" hreflang="en" href="https://jyutping.app/en/" />
+        <link rel="alternate" hreflang="cmn-Hant" href="https://jyutping.app/cmn-Hant/" />
+        <link rel="alternate" hreflang="cmn-Hans" href="https://jyutping.app/cmn-Hans/" />
+        <link rel="alternate" hreflang="x-default" href="https://jyutping.app/" />
+        <link rel="manifest" href="../manifest.json">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Jyutping.app">
+        <meta name="apple-mobile-web-app-title" content="Jyutping.app">
+        <meta name="apple-itunes-app" content="app-id=1509367629">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="粤拼输入法 Cantonese Keyboard" />
+        <meta property="og:description" content="粤语拼音输入法，广东话输入法键盘。 Cantonese Jyutping Keyboard for Android, iOS, macOS, Windows, and more." />
+        <meta property="og:url" content="https://jyutping.app/cmn-Hans/" />
+        <meta property="og:image" content="https://jyutping.app/images/banner.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:alt" content="Cantonese Jyutping Keyboard" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <meta name="twitter:creator" content="@bingzheung" />
+        <link rel="icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="https://jyutping.app/images/logo.png" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="./"><img class="header-logo" src="../images/logo.png" alt="Logo">粤拼输入法</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="android">Android</a></li>
+                        <li><a href="ios">iOS</a></li>
+                        <li><a href="mac">macOS</a></li>
+                        <li><a href="windows">Windows</a></li>
+                        <li><a href="harmony">HarmonyOS</a></li>
+                        <li><a href="faq">常见问题</a></li>
+                        <li><a href="collection">资源汇总</a></li>
+                        <li><a href="donate">支持作者</a></li>
+                        <li><a href="about">关于</a></li>
+                        <li class="language-menu">
+                                <details>
+                                        <summary>普通话・简</summary>
+                                        <ul>
+                                                <li><a href="../">粵語</a></li>
+                                                <li><a href="../en/">English</a></li>
+                                                <li><a href="../cmn-Hant/">普通話・繁</a></li>
+                                        </ul>
+                                </details>
+                        </li>
+                </ul>
+        </header>
+        <div class="card">
+                <h1>粤拼输入法</h1>
+                <p>
+                        <picture>
+                                <source srcset="../images/screenshot-iphone-dark.png" media="(max-width: 700px) and (prefers-color-scheme: dark)">
+                                <source srcset="../images/screenshot-iphone.png" media="(max-width: 700px)">
+                                <source srcset="../images/screenshot-ipad-dark.png" media="(prefers-color-scheme: dark)">
+                                <img class="screenshot-banner" src="../images/screenshot-ipad.png" alt="Screenshot of Jyutping keyboard">
+                        </picture>
+                </p>
+                <p class="left-align even-more-line-height gap4em">
+                        粤语拼音输入法，简单易用、规则清楚，打字快速准确。
+                        <br>
+                        会说就会用，自然流畅，想说什么就打什么。
+                        <br>
+                        每一次输入，都可以复习、巩固一次读音。越用粤拼，就越熟悉粤语。
+                        <br>
+                        <br>
+                        即装即用，容易上手，没有各种繁琐设置。
+                        <br>
+                        开源、免费、无广告，全程单机离线，无需担心隐私问题。
+                        <br>
+                        <br>
+                        采用<a target="_blank" href="https://jyutping.org/jyutping">香港语言学学会粤语拼音方案</a>，相容各种常见拼写习惯。
+                        <br>
+                        可以用汉语拼音、仓颉、速成、笔画、拆字等反查粤拼。
+                </p>
+                <div class="screenshot-row gap5em">
+                        <picture>
+                                <source srcset="../images/screenshot-iphone-9key-dark.png" media="(prefers-color-scheme: dark)">
+                                <img src="../images/screenshot-iphone-9key.png" alt="Screenshot of Jyutping keyboard on iPhone with 9-key layout">
+                        </picture>
+                        <picture>
+                                <source srcset="../images/screenshot-mac-dark.png" media="(prefers-color-scheme: dark)">
+                                <img src="../images/screenshot-mac.png" alt="Screenshot of Jyutping input method on macOS">
+                        </picture>
+                </div>
+                <br>
+                <div class="download-row gap5em">
+                        <p>
+                                <a href="https://apps.apple.com/hk/app/id1509367629" target="_blank">
+                                        <img class="badge" src="../images/badge-app-store-download.png" alt="Download on the App Store">
+                                </a>
+                                <br>
+                                <a href="https://apps.apple.com/hk/app/id1509367629" target="_blank">
+                                        <img class="qrcode" src="../images/qrcode-app-store.png" alt="App Store QR Code">
+                                </a>
+                        </p>
+                        <p>
+                                <a href="https://play.google.com/store/apps/details?id=org.jyutping.jyutping" target="_blank">
+                                        <img class="badge" src="../images/badge-google-play-download.svg" alt="GET IT ON Google Play">
+                                </a>
+                                <br>
+                                <a href="https://play.google.com/store/apps/details?id=org.jyutping.jyutping" target="_blank">
+                                        <img class="qrcode" src="../images/qrcode-google-play.png" alt="Google Play Store QR Code">
+                                </a>
+                        </p>
+                </div>
+                <p class="gap1em">
+                        <a href="ios"><img class="badge-adjusted" src="../images/badge-testflight.png" alt="iOS TestFlight"></a>
+                        <a href="android"><img class="badge-adjusted" src="../images/badge-android-version.png" alt="Android download options"></a>
+                        <br>
+                        <a href="mac"><img class="badge-adjusted" src="../images/badge-mac-version.png" alt="macOS download"></a>
+                        <a href="harmony"><img class="badge-adjusted" src="../images/badge-harmony-download.png" alt="HarmonyOS download"></a>
+                </p>
+                <br>
+                <p class="gap5em">
+                        如果你想支持作者开发，欢迎 <a href="donate">捐赠赞助</a>
+                </p>
+        </div>
+        <footer>
+                <nav class="footer-links">
+                        <a target="_blank" href="https://github.com/yuetyam">GitHub</a>
+                        <a target="_blank" href="https://www.instagram.com/jyutping_app">Instagram</a>
+                        <a target="_blank" href="https://www.threads.net/@jyutping_app">Threads</a>
+                        <a target="_blank" href="https://x.com/JyutpingApp">X (Twitter)</a>
+                        <a target="_blank" href="https://t.me/jyutping">Telegram</a>
+                        <a target="_blank" href="https://jq.qq.com/?k=4PR17m3t">QQ 群 (293148593)</a>
+                </nav>
+        </footer>
+</body>
+
+</html>
