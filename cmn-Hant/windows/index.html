@@ -58,16 +58,142 @@
                 </ul>
         </header>
         <div class="card even-more-line-height">
-                <h1>
-                        Windows 粵拼輸入法
-                </h1>
+                <h1>Windows 粵拼輸入法</h1>
                 <p>
-                        <img class="sponsor-alipay" src="../../images/screenshot-windows.png" alt="Windows Screenshot">
+                        <img id="download" class="screenshot" src="../../images/screenshot-windows.png" alt="Windows Screenshot">
                 </p>
+                <div class="left-align gap4em">
+                        <a class="bookmark" href="#download">
+                                <h2>下載</h2>
+                        </a>
+                        <p class="double-line-height">
+                                兼容系統: <span class="stack">Windows 11</span> 以及 <span class="stack">Windows 10</span> (64-bit)
+                                <br>
+                                兼容CPU: <kbd>x86_64</kbd> <kbd>arm64</kbd>
+                        </p>
+                        <p class="double-line-height">
+                                下載 x86_64 版本: <a class="download" href="https://dl.jyutping.app/jyutping-windows/0.1.0/jyutping-v0.1.0-x64.exe" download> jyutping-v0.1.0-x64.exe</a>
+                                <br>
+                                下載 ARM64 版本: <a class="download" href="https://dl.jyutping.app/jyutping-windows/0.1.0/jyutping-v0.1.0-arm64.exe" download> jyutping-v0.1.0-arm64.exe</a>
+                        </p>
+                        <div class="shasum-container">
+                                <input type="checkbox" id="exe-shasum-toggle">
+                                <label for="exe-shasum-toggle">體積(Size) 以及散列值(SHA-256)</label>
+<pre class="shasum-code-block"><code># Bytes
+27557108  jyutping-v0.1.0-x64.exe
+27518749  jyutping-v0.1.0-arm64.exe
+
+# SHA-256
+1b6adcc935de8923d727623252f65082ea5f6a658786eedb8233d9eb99d19ba4  jyutping-v0.1.0-x64.exe
+6de9d08a9856c944ec8a441303ab98a91e43377bf9624f49e47991de4c9d01fb  jyutping-v0.1.0-arm64.exe
+</code></pre>
+                        </div>
+                        <br id="keyboard-shortcuts">
+                        <a class="bookmark" href="#keyboard-shortcuts">
+                                <h2>鍵盤快捷鍵</h2>
+                        </a>
+                        <table class="shortcut-table">
+                                <thead>
+                                        <tr>
+                                                <th>輸入以及候選詞</th>
+                                                <th>說明</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                                <td><kbd>Arrow Up ↑</kbd> 或 <kbd>Shift</kbd> + <kbd>Tab</kbd></td>
+                                                <td>移至上一個候選詞。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Arrow Down ↓</kbd> 或 <kbd>Tab</kbd></td>
+                                                <td>移至下一個候選詞。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>-</kbd> 或 <kbd>[</kbd> 或 <kbd>Arrow Left ←</kbd></td>
+                                                <td>上一頁候選詞。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>=</kbd> 或 <kbd>]</kbd> 或 <kbd>Arrow Right →</kbd></td>
+                                                <td>下一頁候選詞。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Esc</kbd></td>
+                                                <td>取消當前候選輸入。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Backspace</kbd></td>
+                                                <td>從輸入記憶中移除當前候選詞。</td>
+                                        </tr>
+                                </tbody>
+                        </table>
+                        <table class="shortcut-table">
+                                <thead>
+                                        <tr>
+                                                <th>模式以及字形</th>
+                                                <th>說明</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                                <td><kbd>Shift</kbd></td>
+                                                <td>切換中文／ABC 模式。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Shift</kbd> + <kbd>Space</kbd></td>
+                                                <td>切換全寬／半寬數字、字母。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Ctrl</kbd> + <kbd>.</kbd></td>
+                                                <td>切換中文／英文標點符號。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd></td>
+                                                <td>切換至傳統漢字。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd></td>
+                                                <td>切換至傳統漢字 • 香港標準。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd></td>
+                                                <td>切換至傳統漢字 • 臺灣標準。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd></td>
+                                                <td>切換至簡化字。</td>
+                                        </tr>
+                                </tbody>
+                        </table>
+                        <table class="shortcut-table">
+                                <thead>
+                                        <tr>
+                                                <th>反查前綴鍵</th>
+                                                <th>反查方式</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                                <td><kbd>r</kbd></td>
+                                                <td>普通話拼音反查。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>v</kbd></td>
+                                                <td>倉頡反查。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>x</kbd></td>
+                                                <td>筆畫反查。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>q</kbd></td>
+                                                <td>拆字反查。</td>
+                                        </tr>
+                                </tbody>
+                        </table>
+                        例如普通話反查: <kbd>rlin</kbd> → 林。
+                </div>
                 <br>
-                <p>
-                        正在開發，即將推出，敬請期待。
-                </p>
+                <br>
                 <p>
                         如果你想支持作者開發，歡迎 <a href="../donate">捐贈贊助</a>
                 </p>
