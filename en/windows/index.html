@@ -25,6 +25,7 @@
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
         <link rel="stylesheet" type="text/css" href="../../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/footer.css" />
         <link rel="stylesheet" type="text/css" href="../../css/style.css" />
 </head>
 
@@ -88,49 +89,15 @@
 618ced78f6a6cd9393f15b36dfa8fb3c7a3d413697750d1d8f2357987ffd91cc  jyutping-v0.2.0-arm64.exe
 </code></pre>
                         </div>
-                        <br id="keyboard-shortcuts">
-                        <a class="bookmark" href="#keyboard-shortcuts">
-                                <h2>Keyboard Shortcuts</h2>
+                        <br id="shortcuts">
+                        <a class="bookmark" href="#shortcuts">
+                                <h2>Shortcuts</h2>
                         </a>
                         <table class="shortcut-table">
                                 <thead>
                                         <tr>
-                                                <th>Input and candidates</th>
-                                                <th>Description</th>
-                                        </tr>
-                                </thead>
-                                <tbody>
-                                        <tr>
-                                                <td><kbd>Arrow Up ↑</kbd> or <kbd>Shift</kbd> + <kbd>Tab</kbd></td>
-                                                <td>Move to the previous candidate.</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>Arrow Down ↓</kbd> or <kbd>Tab</kbd></td>
-                                                <td>Move to the next candidate.</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>-</kbd> or <kbd>[</kbd> or <kbd>Arrow Left ←</kbd></td>
-                                                <td>Go to the previous candidate page.</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>=</kbd> or <kbd>]</kbd> or <kbd>Arrow Right →</kbd></td>
-                                                <td>Go to the next candidate page.</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>Esc</kbd></td>
-                                                <td>Cancel the current candidate input.</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Backspace</kbd></td>
-                                                <td>Remove the current candidate from input memory.</td>
-                                        </tr>
-                                </tbody>
-                        </table>
-                        <table class="shortcut-table">
-                                <thead>
-                                        <tr>
+                                                <th>Shortcut</th>
                                                 <th>Mode and character form</th>
-                                                <th>Description</th>
                                         </tr>
                                 </thead>
                                 <tbody>
@@ -167,30 +134,66 @@
                         <table class="shortcut-table">
                                 <thead>
                                         <tr>
-                                                <th>Reverse lookup prefix key</th>
-                                                <th>Lookup method</th>
+                                                <th>Shortcut</th>
+                                                <th>Candidates and input</th>
                                         </tr>
                                 </thead>
                                 <tbody>
                                         <tr>
-                                                <td><kbd>r</kbd></td>
-                                                <td>Mandarin Pinyin reverse lookup.</td>
+                                                <td><kbd>Arrow Up ↑</kbd> or <kbd>Shift</kbd> + <kbd>Tab</kbd></td>
+                                                <td>Move to the previous candidate.</td>
                                         </tr>
                                         <tr>
-                                                <td><kbd>v</kbd></td>
-                                                <td>Cangjie reverse lookup.</td>
+                                                <td><kbd>Arrow Down ↓</kbd> or <kbd>Tab</kbd></td>
+                                                <td>Move to the next candidate.</td>
                                         </tr>
                                         <tr>
-                                                <td><kbd>x</kbd></td>
-                                                <td>Stroke reverse lookup.</td>
+                                                <td><kbd>-</kbd> or <kbd>[</kbd> or <kbd>Arrow Left ←</kbd></td>
+                                                <td>Go to the previous candidate page.</td>
                                         </tr>
                                         <tr>
-                                                <td><kbd>q</kbd></td>
-                                                <td>Character decomposition reverse lookup.</td>
+                                                <td><kbd>=</kbd> or <kbd>]</kbd> or <kbd>Arrow Right →</kbd></td>
+                                                <td>Go to the next candidate page.</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Esc</kbd></td>
+                                                <td>Cancel the current candidate input.</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Backspace</kbd></td>
+                                                <td>Remove the current candidate from input memory.</td>
                                         </tr>
                                 </tbody>
                         </table>
-                        Example Mandarin reverse lookup: <kbd>rlin</kbd> → 林.
+                        <br id="fonts">
+                        <a class="bookmark" href="#fonts">
+                                <h2>Fonts</h2>
+                        </a>
+                        <p>
+                                Jyutping Input Method uses many less common characters and words, and the fonts bundled with your computer may not display them completely or well.
+                                <br>
+                                We recommend installing <strong>all</strong> of the following fonts:
+                                <br>
+                                <a target="_blank" href="https://rsms.me/inter">Inter</a>
+                                <br>
+                                <a target="_blank" href="https://github.com/GuiWonder/Shanggu">Shanggu Sans</a>
+                                <br>
+                                <a target="_blank" href="https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project">Plangothic</a>
+                                <br>
+                                <a target="_blank" href="https://hyperos.mi.com/font/rare-word">MiSans L3</a>
+                        </p>
+                        <br id="uninstall">
+                        <a class="bookmark" href="#uninstall">
+                                <h2>Uninstall</h2>
+                        </a>
+                        <p>
+                                Double-click <code class="inline-block">C:\Program Files\Jyutping\unins000.exe</code> to start uninstalling.
+                        </p>
+                        <p>
+                                If the uninstaller says it cannot close an app during the process:
+                                <br>
+                                Try switching to a system input method first, then sign out and sign in again, or restart the computer, before uninstalling again.
+                        </p>
                 </div>
                 <br>
                 <br>
@@ -199,6 +202,16 @@
                 </p>
                 <br>
         </div>
+        <footer>
+                <nav class="footer-links">
+                        <a target="_blank" href="https://github.com/yuetyam">GitHub</a>
+                        <a target="_blank" href="https://www.instagram.com/jyutping_app">Instagram</a>
+                        <a target="_blank" href="https://www.threads.net/@jyutping_app">Threads</a>
+                        <a target="_blank" href="https://x.com/JyutpingApp">X (Twitter)</a>
+                        <a target="_blank" href="https://t.me/jyutping">Telegram</a>
+                        <a target="_blank" href="https://jq.qq.com/?k=4PR17m3t">QQ Group (293148593)</a>
+                </nav>
+        </footer>
 </body>
 
 </html>

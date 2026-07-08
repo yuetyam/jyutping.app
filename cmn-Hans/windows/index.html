@@ -3,8 +3,8 @@
 
 <head>
         <meta charset="UTF-8">
-        <title>Windows 粤拼输入法</title>
-        <meta name="description" content="Windows 粤拼输入法。Cantonese Jyutping Input Method for Windows." />
+        <title>Windows 粤语拼音输入法</title>
+        <meta name="description" content="Windows 粤拼输入法，广东话拼音输入法。" />
         <link rel="canonical" href="https://jyutping.app/cmn-Hans/windows/" />
         <link rel="alternate" hreflang="yue" href="https://jyutping.app/windows/" />
         <link rel="alternate" hreflang="en" href="https://jyutping.app/en/windows/" />
@@ -12,8 +12,8 @@
         <link rel="alternate" hreflang="cmn-Hans" href="https://jyutping.app/cmn-Hans/windows/" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Windows 粤拼输入法" />
-        <meta property="og:description" content="Windows 粤拼输入法。Cantonese Jyutping Input Method for Windows." />
+        <meta property="og:title" content="Windows 粤语拼音输入法" />
+        <meta property="og:description" content="Windows 粤拼输入法，广东话拼音输入法。" />
         <meta property="og:url" content="https://jyutping.app/cmn-Hans/windows/" />
         <meta property="og:image" content="https://jyutping.app/images/banner.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -25,6 +25,7 @@
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
         <link rel="stylesheet" type="text/css" href="../../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/footer.css" />
         <link rel="stylesheet" type="text/css" href="../../css/style.css" />
 </head>
 
@@ -72,9 +73,9 @@
                                 兼容CPU: <kbd>x86_64</kbd> <kbd>arm64</kbd>
                         </p>
                         <p class="double-line-height">
-                                下载 x86_64 版本: <a class="download" href="https://dl.jyutping.app/jyutping-windows/0.2.0/jyutping-v0.2.0-x64.exe" download> jyutping-v0.2.0-x64.exe</a>
+                                下载一般电脑版: <a class="download" href="https://dl.jyutping.app/jyutping-windows/0.2.0/jyutping-v0.2.0-x64.exe" download> jyutping-v0.2.0-x64.exe</a>
                                 <br>
-                                下载 ARM64 版本: <a class="download" href="https://dl.jyutping.app/jyutping-windows/0.2.0/jyutping-v0.2.0-arm64.exe" download> jyutping-v0.2.0-arm64.exe</a>
+                                下载ARM电脑版: <a class="download" href="https://dl.jyutping.app/jyutping-windows/0.2.0/jyutping-v0.2.0-arm64.exe" download> jyutping-v0.2.0-arm64.exe</a>
                         </p>
                         <div class="shasum-container">
                                 <input type="checkbox" id="exe-shasum-toggle">
@@ -88,49 +89,15 @@
 618ced78f6a6cd9393f15b36dfa8fb3c7a3d413697750d1d8f2357987ffd91cc  jyutping-v0.2.0-arm64.exe
 </code></pre>
                         </div>
-                        <br id="keyboard-shortcuts">
-                        <a class="bookmark" href="#keyboard-shortcuts">
-                                <h2>键盘快捷键</h2>
+                        <br id="shortcuts">
+                        <a class="bookmark" href="#shortcuts">
+                                <h2>快捷键（快速键／热键）</h2>
                         </a>
                         <table class="shortcut-table">
                                 <thead>
                                         <tr>
-                                                <th>输入以及候选词</th>
-                                                <th>说明</th>
-                                        </tr>
-                                </thead>
-                                <tbody>
-                                        <tr>
-                                                <td><kbd>Arrow Up ↑</kbd> 或 <kbd>Shift</kbd> + <kbd>Tab</kbd></td>
-                                                <td>移至上一个候选词。</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>Arrow Down ↓</kbd> 或 <kbd>Tab</kbd></td>
-                                                <td>移至下一个候选词。</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>-</kbd> 或 <kbd>[</kbd> 或 <kbd>Arrow Left ←</kbd></td>
-                                                <td>上一页候选词。</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>=</kbd> 或 <kbd>]</kbd> 或 <kbd>Arrow Right →</kbd></td>
-                                                <td>下一页候选词。</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>Esc</kbd></td>
-                                                <td>取消当前候选输入。</td>
-                                        </tr>
-                                        <tr>
-                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Backspace</kbd></td>
-                                                <td>从输入记忆中移除当前候选词。</td>
-                                        </tr>
-                                </tbody>
-                        </table>
-                        <table class="shortcut-table">
-                                <thead>
-                                        <tr>
+                                                <th>快捷键</th>
                                                 <th>模式以及字形</th>
-                                                <th>说明</th>
                                         </tr>
                                 </thead>
                                 <tbody>
@@ -167,30 +134,68 @@
                         <table class="shortcut-table">
                                 <thead>
                                         <tr>
-                                                <th>反查前缀键</th>
-                                                <th>反查方式</th>
+                                                <th>快捷键</th>
+                                                <th>候选词以及输入</th>
                                         </tr>
                                 </thead>
                                 <tbody>
                                         <tr>
-                                                <td><kbd>r</kbd></td>
-                                                <td>普通话拼音反查。</td>
+                                                <td><kbd>Arrow Up ↑</kbd> 或 <kbd>Shift</kbd> + <kbd>Tab</kbd></td>
+                                                <td>移至上一个候选词。</td>
                                         </tr>
                                         <tr>
-                                                <td><kbd>v</kbd></td>
-                                                <td>仓颉反查。</td>
+                                                <td><kbd>Arrow Down ↓</kbd> 或 <kbd>Tab</kbd></td>
+                                                <td>移至下一个候选词。</td>
                                         </tr>
                                         <tr>
-                                                <td><kbd>x</kbd></td>
-                                                <td>笔画反查。</td>
+                                                <td><kbd>-</kbd> 或 <kbd>[</kbd> 或 <kbd>Arrow Left ←</kbd></td>
+                                                <td>上一页候选词。</td>
                                         </tr>
                                         <tr>
-                                                <td><kbd>q</kbd></td>
-                                                <td>拆字反查。</td>
+                                                <td><kbd>=</kbd> 或 <kbd>]</kbd> 或 <kbd>Arrow Right →</kbd></td>
+                                                <td>下一页候选词。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Esc</kbd></td>
+                                                <td>取消当前候选输入。</td>
+                                        </tr>
+                                        <tr>
+                                                <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Backspace</kbd></td>
+                                                <td>从输入记忆移除当前候选词。</td>
                                         </tr>
                                 </tbody>
                         </table>
-                        例如普通话反查: <kbd>rlin</kbd> → 林。
+                        <br id="fonts">
+                        <a class="bookmark" href="#fonts">
+                                <h2>字体</h2>
+                        </a>
+                        <p>
+                                粤拼输入法会用到很多不太常见的字词，而电脑自带字体可能显示不全或不佳。
+                                <br>
+                                推荐安装以下 <strong>全部</strong> 几款字体：
+                                <br>
+                                <a target="_blank" href="https://rsms.me/inter">Inter</a>
+                                <br>
+                                <a target="_blank" href="https://github.com/GuiWonder/Shanggu">尚古黑体</a>
+                                <br>
+                                <a target="_blank" href="https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project">遍黑体</a>
+                                <br>
+                                <a target="_blank" href="https://hyperos.mi.com/font/rare-word">MiSans L3</a>
+                        </p>
+                        <br id="uninstall">
+                        <a class="bookmark" href="#uninstall">
+                                <h2>卸载</h2>
+                        </a>
+                        <p>
+                                双击 <code class="inline-block">C:\Program Files\Jyutping\unins000.exe</code> 即开始卸载。
+                        </p>
+                        <p>
+                                如果卸载过程中，弹出提示说无法关闭某个程序。
+                                <br>
+                                可以试下：
+                                <br>
+                                先将输入法切换到系统输入法，再登出、登录一次电脑（或者重启），然后再开始卸载。
+                        </p>
                 </div>
                 <br>
                 <br>
@@ -199,6 +204,16 @@
                 </p>
                 <br>
         </div>
+        <footer>
+                <nav class="footer-links">
+                        <a target="_blank" href="https://github.com/yuetyam">GitHub</a>
+                        <a target="_blank" href="https://www.instagram.com/jyutping_app">Instagram</a>
+                        <a target="_blank" href="https://www.threads.net/@jyutping_app">Threads</a>
+                        <a target="_blank" href="https://x.com/JyutpingApp">X (Twitter)</a>
+                        <a target="_blank" href="https://t.me/jyutping">Telegram</a>
+                        <a target="_blank" href="https://jq.qq.com/?k=4PR17m3t">QQ 群 (293148593)</a>
+                </nav>
+        </footer>
 </body>
 
 </html>
