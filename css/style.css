@@ -95,6 +95,30 @@ img.screenshot {
         gap: 16px;
 }
 
+.shortcut-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 2em;
+        line-height: 1.5em;
+}
+.shortcut-table th, .shortcut-table td {
+        border-bottom: 1px solid var(--color-light-background);
+        padding: 0.65em 0.75em;
+        vertical-align: top;
+}
+.shortcut-table th {
+        font-weight: 500;
+        text-align: left;
+}
+.shortcut-table td:first-child {
+        width: 38%;
+        white-space: nowrap;
+}
+.shortcut-table kbd {
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+}
+
 img.screenshot-banner {
         width: 100%;
         border-radius: 8px;
@@ -186,6 +210,14 @@ h1 {
         img.guideline {
                 width: 88%;
         }
+        .shortcut-table th, .shortcut-table td {
+                padding-left: 0.45em;
+                padding-right: 0.45em;
+        }
+        .shortcut-table td:first-child {
+                width: 44%;
+                white-space: normal;
+        }
 }
 @media (max-width: 380px) {
         .download-row {
@@ -220,6 +252,9 @@ h1 {
         }
         pre, code.inline-block, kbd {
                 background: var(--color-dark-background);
+        }
+        .shortcut-table th, .shortcut-table td {
+                border-bottom-color: #333333;
         }
         img.qrcode {
                 width: 158px;
