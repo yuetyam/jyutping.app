@@ -102,6 +102,12 @@ kbd {
 .gap5em {
         margin-top: 5em;
 }
+.gap6em {
+        margin-top: 6em;
+}
+.gap7em {
+        margin-top: 7em;
+}
 
 .green-block {
         padding: 2px 4px;
