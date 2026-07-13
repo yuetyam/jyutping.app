@@ -60,11 +60,12 @@
         </header>
         <div class="card even-more-line-height">
                 <h1>Windows 粤拼输入法</h1>
-                <p>
-                        <img id="download" class="screenshot" src="../../images/screenshot-windows.png" alt="Windows Screenshot">
-                </p>
+                <picture>
+                        <source srcset="../../images/screenshot-windows-dark.png" media="(prefers-color-scheme: dark)">
+                        <img class="screenshot" src="../../images/screenshot-windows.png" alt="Windows 粤拼输入法屏幕截图">
+                </picture>
                 <div class="left-align gap4em">
-                        <a class="bookmark" href="#download">
+                        <a id="download" class="bookmark" href="#download">
                                 <h2>下载</h2>
                         </a>
                         <p class="double-line-height">
@@ -89,6 +90,42 @@
 0a92e26038d23415580d5aa535d1a3245cccdbe2b8cd0f888b7d2a83dc135db6  jyutping-v0.3.0-arm64.exe
 </code></pre>
                         </div>
+                        <br id="install">
+                        <a class="bookmark" href="#install">
+                                <h2>安装</h2>
+                        </a>
+                        <p>
+                                双击下载的 exe 文件即可开始安装。<br>
+                                详细添加输入法的步骤，请参考：
+                                <a target="_blank" href="https://www.asus.com/hk/support/faq/1044329">Windows 如何新增输入法 - ASUS</a>
+                        </p>
+                        <br id="settings">
+                        <a class="bookmark" href="#settings">
+                                <h2>设置</h2>
+                        </a>
+                        <p>
+                                使用粤拼输入法时，右键点击系统右下角的 <span class="highlight">中</span> 字，即会显示设置界面。<br>
+                                可选择字形标准、每页候选词数量、候选词字号大小等选项。
+                        </p>
+                        <p>
+                                <img class="screenshot" src="../../images/windows-settings-menu.png" alt="设置界面屏幕截图">
+                        </p>
+                        <br id="fonts">
+                        <a class="bookmark" href="#fonts">
+                                <h2>字体</h2>
+                        </a>
+                        <p>
+                                粤拼输入法会用到很多不太常见的字词，而电脑自带字体可能显示不全或不佳。<br>
+                                推荐安装以下 <strong>全部</strong> 几款字体：
+                                <br>
+                                <a target="_blank" href="https://rsms.me/inter">Inter</a>
+                                <br>
+                                <a target="_blank" href="https://github.com/GuiWonder/Shanggu">尚古黑体</a>
+                                <br>
+                                <a target="_blank" href="https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project">遍黑体</a>
+                                <br>
+                                <a target="_blank" href="https://hyperos.mi.com/font/rare-word">MiSans L3</a>
+                        </p>
                         <br id="shortcuts">
                         <a class="bookmark" href="#shortcuts">
                                 <h2>快捷键（快速键／热键）</h2>
@@ -165,23 +202,6 @@
                                         </tr>
                                 </tbody>
                         </table>
-                        <br id="fonts">
-                        <a class="bookmark" href="#fonts">
-                                <h2>字体</h2>
-                        </a>
-                        <p>
-                                粤拼输入法会用到很多不太常见的字词，而电脑自带字体可能显示不全或不佳。
-                                <br>
-                                推荐安装以下 <strong>全部</strong> 几款字体：
-                                <br>
-                                <a target="_blank" href="https://rsms.me/inter">Inter</a>
-                                <br>
-                                <a target="_blank" href="https://github.com/GuiWonder/Shanggu">尚古黑体</a>
-                                <br>
-                                <a target="_blank" href="https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project">遍黑体</a>
-                                <br>
-                                <a target="_blank" href="https://hyperos.mi.com/font/rare-word">MiSans L3</a>
-                        </p>
                         <br id="uninstall">
                         <a class="bookmark" href="#uninstall">
                                 <h2>卸载</h2>
@@ -190,19 +210,13 @@
                                 双击 <code class="inline-block">C:\Program Files\Jyutping\unins000.exe</code> 即开始卸载。
                         </p>
                         <p>
-                                如果卸载过程中，弹出提示说无法关闭某个程序。
-                                <br>
-                                可以试下：
-                                <br>
+                                如果卸载过程中，弹出提示说无法关闭某个程序，可以尝试：<br>
                                 先将输入法切换到系统输入法，再登出、登录一次电脑（或者重启），然后再开始卸载。
                         </p>
                 </div>
-                <br>
-                <br>
-                <p>
+                <p class="gap7em">
                         如果你想支持作者开发，欢迎 <a href="../donate">捐赠赞助</a>
                 </p>
-                <br>
         </div>
         <footer>
                 <nav class="footer-links">

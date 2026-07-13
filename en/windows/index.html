@@ -60,11 +60,12 @@
         </header>
         <div class="card even-more-line-height">
                 <h1>Jyutping Input Method for Windows</h1>
-                <p>
-                        <img id="download" class="screenshot" src="../../images/screenshot-windows.png" alt="Windows Screenshot">
-                </p>
+                <picture>
+                        <source srcset="../../images/screenshot-windows-dark.png" media="(prefers-color-scheme: dark)">
+                        <img class="screenshot" src="../../images/screenshot-windows.png" alt="Screenshot of Jyutping input method on Windows">
+                </picture>
                 <div class="left-align gap4em">
-                        <a class="bookmark" href="#download">
+                        <a id="download" class="bookmark" href="#download">
                                 <h2>Download</h2>
                         </a>
                         <p class="double-line-height">
@@ -89,6 +90,42 @@
 0a92e26038d23415580d5aa535d1a3245cccdbe2b8cd0f888b7d2a83dc135db6  jyutping-v0.3.0-arm64.exe
 </code></pre>
                         </div>
+                        <br id="install">
+                        <a class="bookmark" href="#install">
+                                <h2>Install</h2>
+                        </a>
+                        <p>
+                                Double-click the downloaded exe file to start installing.<br>
+                                For detailed instructions on adding an input method, see
+                                <a target="_blank" href="https://www.asus.com/hk/support/faq/1044329">How to add an input method in Windows - ASUS</a>.
+                        </p>
+                        <br id="settings">
+                        <a class="bookmark" href="#settings">
+                                <h2>Settings</h2>
+                        </a>
+                        <p>
+                                While using Jyutping Input Method, right-click <span class="highlight">中</span> in the bottom-right corner of the system taskbar to open the settings interface.<br>
+                                You can choose the character form standard, the number of candidates per page, the candidate font size, and more.
+                        </p>
+                        <p>
+                                <img class="screenshot" src="../../images/windows-settings-menu.png" alt="Screenshot of Settings">
+                        </p>
+                        <br id="fonts">
+                        <a class="bookmark" href="#fonts">
+                                <h2>Fonts</h2>
+                        </a>
+                        <p>
+                                Jyutping Input Method uses many less common characters and words, and the fonts bundled with your computer may not display them completely or well.<br>
+                                We recommend installing <strong>all</strong> of the following fonts:
+                                <br>
+                                <a target="_blank" href="https://rsms.me/inter">Inter</a>
+                                <br>
+                                <a target="_blank" href="https://github.com/GuiWonder/Shanggu">Shanggu Sans</a>
+                                <br>
+                                <a target="_blank" href="https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project">Plangothic</a>
+                                <br>
+                                <a target="_blank" href="https://hyperos.mi.com/font/rare-word">MiSans L3</a>
+                        </p>
                         <br id="shortcuts">
                         <a class="bookmark" href="#shortcuts">
                                 <h2>Shortcuts</h2>
@@ -165,23 +202,6 @@
                                         </tr>
                                 </tbody>
                         </table>
-                        <br id="fonts">
-                        <a class="bookmark" href="#fonts">
-                                <h2>Fonts</h2>
-                        </a>
-                        <p>
-                                Jyutping Input Method uses many less common characters and words, and the fonts bundled with your computer may not display them completely or well.
-                                <br>
-                                We recommend installing <strong>all</strong> of the following fonts:
-                                <br>
-                                <a target="_blank" href="https://rsms.me/inter">Inter</a>
-                                <br>
-                                <a target="_blank" href="https://github.com/GuiWonder/Shanggu">Shanggu Sans</a>
-                                <br>
-                                <a target="_blank" href="https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project">Plangothic</a>
-                                <br>
-                                <a target="_blank" href="https://hyperos.mi.com/font/rare-word">MiSans L3</a>
-                        </p>
                         <br id="uninstall">
                         <a class="bookmark" href="#uninstall">
                                 <h2>Uninstall</h2>
@@ -190,17 +210,12 @@
                                 Double-click <code class="inline-block">C:\Program Files\Jyutping\unins000.exe</code> to start uninstalling.
                         </p>
                         <p>
-                                If the uninstaller says it cannot close an app during the process:
-                                <br>
-                                Try switching to a system input method first, then sign out and sign in again, or restart the computer, before uninstalling again.
+                                If the uninstaller says it cannot close an app during the process, try switching to a system input method first, then sign out and sign in again, or restart the computer, before uninstalling again.
                         </p>
                 </div>
-                <br>
-                <br>
-                <p>
+                <p class="gap7em">
                         To support development, <a href="../donate">donations are welcome</a>.
                 </p>
-                <br>
         </div>
         <footer>
                 <nav class="footer-links">
