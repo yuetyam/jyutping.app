@@ -3,25 +3,22 @@
     <channel>
         <title>Jyutping</title>
         <item>
-            <title>v0.81.0</title>
-            <pubDate>Tue, 11 Aug 2026 12:30:00 +0800</pubDate>
-            <sparkle:version>174</sparkle:version>
-            <sparkle:shortVersionString>0.81.0</sparkle:shortVersionString>
+            <title>v0.82.0</title>
+            <pubDate>Sat, 29 Aug 2026 19:50:00 +0800</pubDate>
+            <sparkle:version>175</sparkle:version>
+            <sparkle:shortVersionString>0.82.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text">本次更新要點：
-• 新增主題強調色(Accent Color)設置選項。
-• 新增增加候選詞䈎面對比清晰度設置選項。(macOS 26+)
-• 改進詞庫結構，令到 PKG 安裝包體積(Size)稍爲細少少。
-• 改進輸入法引擎，打字更順暢。
+• 改進輸入法初始載入流程，提昇性能以及流暢度。
 
 更新之後最好登出、再登入，或者重啓一下電腦，以使輸入法正常生效。
 
 如果粵拼輸入法內置嘅「檢查更新／自動更新」更新失敗，
 可以前往官網下載安裝最新版: https://jyutping.app</description>
             <enclosure
-                url="https://dl.jyutping.app/jyutping/0.81.0/Jyutping-v0.81.0-Mac.pkg"
-                sparkle:edSignature="2i9Fhpl4EgSHa/LWrmP5LK1Sh1PqEWOtLjkbz8/UggBcGFeQxoJWxd/gHgYW/ZqRBd7Xn29eNWMW/phWkYZwDw=="
-                length="21569304"
+                url="https://dl.jyutping.app/jyutping/0.82.0/Jyutping-v0.82.0-Mac.pkg"
+                sparkle:edSignature="5KSuBPsxHhPnOXcRIaNu2kSODwEw/O9bGTugsD3pUG+hGRWcEypmlta5PLbfn//CqUDO6ph3QJNfqXFbnKZ/Bw=="
+                length="21842272"
                 type="application/octet-stream" />
         </item>
     </channel>
