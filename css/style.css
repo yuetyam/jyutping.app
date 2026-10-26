@@ -237,11 +237,6 @@ h1 {
                 background: var(--color-light-background);
         }
 }
-@media (max-width: 802px) and (prefers-color-scheme: light) {
-        html, body {
-                background: var(--color-card-light-background);
-        }
-}
 @media(prefers-color-scheme: dark) {
         html, body {
                 color: white;
@@ -261,5 +256,16 @@ h1 {
         }
         img.sponsor-wechat-pay, img.sponsor-alipay {
                 border: none;
+        }
+}
+
+@media (max-width: 802px) and (prefers-color-scheme: light) {
+        html, body {
+                background: var(--color-card-light-background);
+        }
+}
+@media (max-width: 802px) and (prefers-color-scheme: dark) {
+        html, body {
+                background: var(--color-card-dark-background);
         }
 }
