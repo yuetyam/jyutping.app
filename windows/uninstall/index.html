@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="yue">
+
+<head>
+        <meta charset="UTF-8">
+        <title>如何卸載 Windows 粵拼輸入法</title>
+        <meta name="description" content="詳細介紹如何卸載 Windows 版粵拼輸入法，以及如何清空輸入法相關資料。" />
+        <link rel="canonical" href="https://jyutping.app/windows/uninstall/" />
+        <link rel="alternate" hreflang="yue" href="https://jyutping.app/windows/uninstall/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="如何卸載 Windows 粵拼輸入法" />
+        <meta property="og:description" content="詳細介紹如何卸載 Windows 版粵拼輸入法，以及如何清空輸入法相關資料。" />
+        <meta property="og:url" content="https://jyutping.app/windows/uninstall/" />
+        <meta property="og:image" content="https://jyutping.app/images/icon.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@JyutpingApp" />
+        <meta name="twitter:creator" content="@bingzheung" />
+        <link rel="icon" type="image/png" href="https://jyutping.app/images/icon.png" />
+        <link rel="icon" type="image/svg+xml" href="https://jyutping.app/images/icon.svg" />
+        <link rel="apple-touch-icon" type="image/png" href="https://jyutping.app/images/logo.png" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8F9FA" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="../../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/footer.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+</head>
+
+<body>
+        <header>
+                <a class="header-logo" href="../../"><img class="header-logo" src="../../images/logo.png" alt="Logo">粵拼輸入法</a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                        <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                        <li><a href="../../android">Android</a></li>
+                        <li><a href="../../ios">iOS</a></li>
+                        <li><a href="../../mac">macOS</a></li>
+                        <li><a href="../../windows">Windows</a></li>
+                        <li><a href="../../harmony">HarmonyOS</a></li>
+                        <li><a href="../../faq">常問問題</a></li>
+                        <li><a href="../../collection">資源彙集</a></li>
+                        <li><a href="../../donate">支持作者</a></li>
+                        <li><a href="../../about">關於</a></li>
+                </ul>
+        </header>
+        <div class="card more-line-height">
+                <h1>如何卸載 Windows 粵拼輸入法</h1>
+                <div class="left-align">
+                        卸載前準備：
+                        <ul class="double-line-height">
+                                <li>將當前輸入法切換到其他輸入法。</li>
+                                <li>儲存好電腦上嘅所有工作，關閉各個應用程式。</li>
+                        </ul>
+                        <br id="uninstall">
+                        <a class="bookmark" href="#uninstall">
+                                <h2>卸載輸入法</h2>
+                        </a>
+                        <p>
+                                雙擊 <code class="inline-block">C:\Program Files\Jyutping\unins000.exe</code> 開始卸載。
+                        </p>
+                        <p>
+                                如果卸載過程中，彈提示話無法關閉某個程式。<br>
+                                試下登出、登入一次電腦（或者重啓），然後再開始卸載。<br>
+                        </p>
+                        <p>
+                                完成之後，最好重啓一下電腦。
+                        </p>
+                        <br id="cleanup">
+                        <a class="bookmark" href="#cleanup">
+                                <h2>清理個人資料（可選）</h2>
+                        </a>
+                        <p>
+                                卸載完輸入法程式，並且重啓電腦之後，可以再清空粵拼輸入法相關資料：
+                        </p>
+                        <a id="memory" class="bookmark" href="#memory">
+                                <h3>A. 輸入記憶</h3>
+                        </a>
+                        <ol class="double-line-height">
+                                <li>撳 <kbd>Win</kbd> + <kbd>R</kbd>，輸入路徑 <code class="inline-block">%LOCALAPPDATA%</code>，再撳 <kbd>Enter ⏎</kbd></li>
+                                <li>搵到資料夾 <span class="stack">Jyutping</span> 將佢刪除。如果冇，跳過。</li>
+                        </ol>
+                        <a id="logs" class="bookmark" href="#logs">
+                                <h3>B. 輸入法日誌</h3>
+                        </a>
+                        <ol class="double-line-height">
+                                <li>撳 <kbd>Win</kbd> + <kbd>R</kbd>，輸入路徑 <code class="inline-block">%TEMP%</code>，再撳 <kbd>Enter ⏎</kbd></li>
+                                <li>搵到資料夾 <span class="stack">Jyutping</span> 將佢刪除。如果冇，跳過。</li>
+                        </ol>
+                        <a id="settings" class="bookmark" href="#settings">
+                                <h3>C. 輸入法設定</h3>
+                        </a>
+                        <ol class="double-line-height">
+                                <li>編輯註冊表：撳 <kbd>Win</kbd> + <kbd>R</kbd>，輸入 <code class="inline-block">regedit</code>，再撳 <kbd>Enter ⏎</kbd></li>
+                                <li>搵到 <code class="inline-block">HKEY_CURRENT_USER\Software\Jyutping</code></li>
+                                <li>右鍵撳 <span class="stack">Jyutping</span>，揀 <span class="stack">刪除</span>，確認。
+                        </ol>
+                        <p class="gap3em">
+                                卸載𠶧當之後，最好重啓一下電腦。
+                        </p>
+                </div>
+        </div>
+        <footer>
+                <nav class="footer-links">
+                        <a target="_blank" href="https://github.com/yuetyam">GitHub</a>
+                        <a target="_blank" href="https://www.instagram.com/jyutping_app">Instagram</a>
+                        <a target="_blank" href="https://www.threads.net/@jyutping_app">Threads</a>
+                        <a target="_blank" href="https://x.com/JyutpingApp">X (Twitter)</a>
+                        <a target="_blank" href="https://t.me/jyutping">Telegram</a>
+                        <a target="_blank" href="https://jq.qq.com/?k=4PR17m3t">QQ 群 (293148593)</a>
+                </nav>
+        </footer>
+</body>
+
+</html>

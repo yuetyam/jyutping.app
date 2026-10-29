@@ -22,7 +22,7 @@
 </url>
 <url>
   <loc>https://jyutping.app/windows/</loc>
-  <lastmod>2026-10-26T09:17:12+08:00</lastmod>
+  <lastmod>2026-10-29T18:55:00+08:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -64,6 +64,11 @@
   <loc>https://jyutping.app/mac/uninstall/</loc>
   <lastmod>2026-07-09T19:21:50+08:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://jyutping.app/windows/uninstall/</loc>
+    <lastmod>2026-10-29T18:55:00+08:00</lastmod>
+    <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jyutping.app/privacy/</loc>
