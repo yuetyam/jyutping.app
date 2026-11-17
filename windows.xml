@@ -5,12 +5,22 @@
         <link>https://jyutping.app/windows</link>
         <description>Jyutping Windows updates</description>
         <item>
-            <title>Jyutping 0.11.0</title>
-            <sparkle:version>0.11.0</sparkle:version>
-            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+            <title>Jyutping 0.12.0 (x64)</title>
+            <pubDate>Tue, 17 Nov 2026 23:02:02 +0800</pubDate>
+            <sparkle:version>0.12.0</sparkle:version>
+            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-            <link>https://jyutping.app/windows</link>
-            <description>https://jyutping.app/windows</description>
+            <description>Adds manual update checks from the language-bar settings menu.</description>
+            <enclosure url="https://dl.jyutping.app/jyutping-windows/0.12.0/jyutping-v0.12.0-x64.exe" length="21941671" type="application/octet-stream" sparkle:os="windows-x64" sparkle:edSignature="OqwLY1escK1fd62Uv2hra4CBz5mP/pOR+PyQLDYUqfBydxNFFbaYiA+dEekTbASikRqvDJ1oBePvmiHQ0tEuDw==" />
+        </item>
+        <item>
+            <title>Jyutping 0.12.0 (arm64)</title>
+            <pubDate>Tue, 17 Nov 2026 23:02:02 +0800</pubDate>
+            <sparkle:version>0.12.0</sparkle:version>
+            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.22000</sparkle:minimumSystemVersion>
+            <description>Adds manual update checks from the language-bar settings menu.</description>
+            <enclosure url="https://dl.jyutping.app/jyutping-windows/0.12.0/jyutping-v0.12.0-arm64.exe" length="21796091" type="application/octet-stream" sparkle:os="windows-arm64" sparkle:edSignature="kajupz+av4KE+8dz5kN1RplvQv/Otgq+Pu8crOycBGK1lINQebEZl/JsYlbakEeZdaaPvoZyI6BMUZj+fs6kCA==" />
         </item>
     </channel>
 </rss>
